@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "moglowstonelamp",
+    "pattern": [
+        "GGG",
+        "GDG",
+		"GGG"
+    ],
+    "key": {
+		"G": {"tag": "moglowstone:glowstone_lamp"},
+		"D": {"tag": "forge:dyes/black"}
+    },
+    "result": {
+        "item": "moglowstonelamps:black_lamp",
+		"count": 8
+    }
+}
