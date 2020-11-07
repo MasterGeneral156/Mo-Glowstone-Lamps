@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "moglowstonelamps:black_lamp",
+	"moglowstonelamps:blue_lamp",
+	"moglowstonelamps:brown_lamp",
+	"moglowstonelamps:cyan_lamp",
+	"moglowstonelamps:gray_lamp",
+	"moglowstonelamps:green_lamp",
+	"moglowstonelamps:light_blue_lamp",
+	"moglowstonelamps:light_gray_lamp",
+	"moglowstonelamps:lime_lamp",
+	"moglowstonelamps:magenta_lamp",
+	"moglowstonelamps:orange_lamp",
+	"moglowstonelamps:pink_lamp",
+	"moglowstonelamps:purple_lamp",
+	"moglowstonelamps:red_lamp",
+	"moglowstonelamps:white_lamp"
+  ]
+}
