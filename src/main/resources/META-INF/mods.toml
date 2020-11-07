@@ -24,6 +24,6 @@ description="Mo' Glowstone Lamps"
 [[dependencies.moglowstonelamps]]
     modId="moglowstone"
     mandatory=true
-    versionRange="[2,)"
+    versionRange="[2.0.6,)"
     ordering="BEFORE"
     side="BOTH"
