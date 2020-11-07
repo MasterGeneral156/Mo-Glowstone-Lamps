@@ -16,7 +16,7 @@ public class LampBlock extends CTDBlock {
 
 	public LampBlock(String name, MaterialColor color) {
 		super(Block.Properties.create(Material.GLASS, color)
-				.sound(SoundType.LANTERN)
+				.sound(SoundType.GLASS)
 				.hardnessAndResistance(0.3F)
 				.harvestTool(ToolType.PICKAXE)
 				.harvestLevel(1),
