@@ -8,10 +8,10 @@
     ],
     "key": {
 		"G": {"tag": "moglowstone:glowstone_lamp"},
-		"D": {"tag": "forge:dyes/red"}
+		"D": {"tag": "forge:dyes/white"}
     },
     "result": {
-        "item": "moglowstonelamps:red_lamp",
+        "item": "moglowstonelamps:white_lamp",
 		"count": 8
     }
 }
