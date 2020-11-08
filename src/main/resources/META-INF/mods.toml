@@ -5,7 +5,7 @@ issueTrackerURL="https://github.com/MasterGeneral156/Mo-Glowstone-Lamps/issues" 
 # A list of mods - how many allowed here is determined by the individual mod loader
 [[mods]]
 modId="moglowstonelamps" #mandatory
-version="1.0.0" #mandatory
+version="1.0.1" #mandatory
 displayName="Mo' Glowstone Lamps" #mandatory
 updateJSONURL="https://raw.githubusercontent.com/MasterGeneral156/Version/master/MoGlowstoneLamps.json" #optional
 displayURL="https://www.curseforge.com/minecraft/mc-mods/mo-glowstone-lamps" #optional
