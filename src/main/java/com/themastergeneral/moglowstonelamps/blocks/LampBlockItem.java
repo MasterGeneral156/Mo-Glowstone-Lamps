@@ -1,6 +1,6 @@
 package com.themastergeneral.moglowstonelamps.blocks;
 
-import com.themastergeneral.moglowstonelamps.MoGlowstoneLamps;
+import com.themastergeneral.moglowstone.MoGlowstone;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
@@ -10,7 +10,7 @@ public class LampBlockItem extends BlockItem
 {
     public LampBlockItem(Block blockIn)
     {
-        super(blockIn, new Item.Properties().group(MoGlowstoneLamps.ITEMGROUP));
+        super(blockIn, new Item.Properties().group(MoGlowstone.ITEMGROUP));
         this.setRegistryName(blockIn.getRegistryName());
     }
 }
