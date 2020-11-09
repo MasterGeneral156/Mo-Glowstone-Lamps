@@ -30,6 +30,9 @@ package com.themastergeneral.moglowstonelamps;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import com.themastergeneral.moglowstonelamps.blocks.BlockRegistry;
+import com.themastergeneral.moglowstonelamps.items.ItemRegistry;
+
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -50,6 +53,8 @@ public class MoGlowstoneLamps {
 
         // Register ourselves for server, registry and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
+        ItemRegistry.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        BlockRegistry.BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
     }
 	
 	private void setup(final FMLCommonSetupEvent event)

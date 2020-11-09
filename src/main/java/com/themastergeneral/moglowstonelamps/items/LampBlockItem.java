@@ -25,7 +25,7 @@
 				OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 				SOFTWARE.
 */
-package com.themastergeneral.moglowstonelamps.blocks;
+package com.themastergeneral.moglowstonelamps.items;
 
 import com.themastergeneral.moglowstone.MoGlowstone;
 
@@ -38,6 +38,5 @@ public class LampBlockItem extends BlockItem
     public LampBlockItem(Block blockIn)
     {
         super(blockIn, new Item.Properties().group(MoGlowstone.ITEMGROUP));
-        this.setRegistryName(blockIn.getRegistryName());
     }
 }
