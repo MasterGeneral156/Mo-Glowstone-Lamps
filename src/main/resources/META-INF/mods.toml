@@ -19,11 +19,11 @@ description="Mo' Glowstone Lamps"
     modId="ctdcore" #mandatory
     mandatory=true #mandatory
     versionRange="[2.1.1,)" #mandatory
-    ordering="BEFORE"
+    ordering="NONE"
     side="BOTH"
 [[dependencies.moglowstonelamps]]
     modId="moglowstone"
     mandatory=true
     versionRange="[2.1.0,)"
-    ordering="BEFORE"
+    ordering="NONE"
     side="BOTH"
