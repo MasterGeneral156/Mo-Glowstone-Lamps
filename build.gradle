@@ -22,7 +22,7 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
 version = project.property('mc_version') + "-" + project.property('mod_version')
-group = 'com.themastergeneral.moglowstone' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+group = 'com.themastergeneral.moglowstonelamps' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = project.property('mod_name')
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(8) // Mojang ships Java 8 to end users, so your mod should target Java 8.
