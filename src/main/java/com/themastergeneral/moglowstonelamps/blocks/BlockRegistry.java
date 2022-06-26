@@ -30,9 +30,9 @@ package com.themastergeneral.moglowstonelamps.blocks;
 import com.themastergeneral.moglowstonelamps.MoGlowstoneLamps;
 
 import net.minecraft.world.level.block.Block;
-import net.minecraftforge.fmllegacy.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.RegistryObject;
 
 public class BlockRegistry {
 	public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, MoGlowstoneLamps.MODID);
