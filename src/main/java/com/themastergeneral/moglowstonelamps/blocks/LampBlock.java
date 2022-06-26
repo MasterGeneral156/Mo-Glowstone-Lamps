@@ -41,9 +41,9 @@ import net.minecraftforge.common.ToolType;
 public class LampBlock extends CTDBlock {
 
 	public LampBlock(MaterialColor color) {
-		super(Block.Properties.create(Material.GLASS, color)
+		super(Block.Properties.of(Material.GLASS, color)
 				.sound(SoundType.GLASS)
-				.hardnessAndResistance(0.3F)
+				.strength(0.3F)
 				.harvestTool(ToolType.PICKAXE)
 				.harvestLevel(1));
 	}

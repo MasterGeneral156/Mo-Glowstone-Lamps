@@ -30,19 +30,19 @@ package com.themastergeneral.moglowstonelamps.blocks;
 import net.minecraft.block.material.MaterialColor;
 
 public class ModBlocks {
-	public static LampBlock black_lamp = new LampBlock(MaterialColor.BLACK);
-	public static LampBlock blue_lamp = new LampBlock(MaterialColor.BLUE);
-	public static LampBlock brown_lamp = new LampBlock(MaterialColor.BROWN);
-	public static LampBlock cyan_lamp = new LampBlock(MaterialColor.CYAN);
-	public static LampBlock gray_lamp = new LampBlock(MaterialColor.GRAY);
-	public static LampBlock green_lamp = new LampBlock(MaterialColor.GREEN);
-	public static LampBlock light_blue_lamp = new LampBlock(MaterialColor.LIGHT_BLUE);
-	public static LampBlock light_gray_lamp = new LampBlock(MaterialColor.LIGHT_GRAY);
-	public static LampBlock lime_lamp = new LampBlock(MaterialColor.LIME);
-	public static LampBlock magenta_lamp = new LampBlock(MaterialColor.MAGENTA);
-	public static LampBlock orange_lamp = new LampBlock(MaterialColor.ORANGE_TERRACOTTA);	//wtf no standard orange? lmao
-	public static LampBlock pink_lamp = new LampBlock(MaterialColor.PINK);
-	public static LampBlock purple_lamp = new LampBlock(MaterialColor.PURPLE);
-	public static LampBlock red_lamp = new LampBlock(MaterialColor.RED);
-	public static LampBlock white_lamp = new LampBlock(MaterialColor.WHITE_TERRACOTTA);	//wtf also no standard white?
+	public static LampBlock black_lamp = new LampBlock(MaterialColor.COLOR_BLACK);
+	public static LampBlock blue_lamp = new LampBlock(MaterialColor.COLOR_BLUE);
+	public static LampBlock brown_lamp = new LampBlock(MaterialColor.COLOR_BROWN);
+	public static LampBlock cyan_lamp = new LampBlock(MaterialColor.COLOR_CYAN);
+	public static LampBlock gray_lamp = new LampBlock(MaterialColor.COLOR_GRAY);
+	public static LampBlock green_lamp = new LampBlock(MaterialColor.COLOR_GREEN);
+	public static LampBlock light_blue_lamp = new LampBlock(MaterialColor.COLOR_LIGHT_BLUE);
+	public static LampBlock light_gray_lamp = new LampBlock(MaterialColor.COLOR_LIGHT_GRAY);
+	public static LampBlock lime_lamp = new LampBlock(MaterialColor.COLOR_LIGHT_GREEN);
+	public static LampBlock magenta_lamp = new LampBlock(MaterialColor.COLOR_MAGENTA);
+	public static LampBlock orange_lamp = new LampBlock(MaterialColor.TERRACOTTA_ORANGE);	//wtf no standard orange? lmao
+	public static LampBlock pink_lamp = new LampBlock(MaterialColor.COLOR_PINK);
+	public static LampBlock purple_lamp = new LampBlock(MaterialColor.COLOR_PURPLE);
+	public static LampBlock red_lamp = new LampBlock(MaterialColor.COLOR_RED);
+	public static LampBlock white_lamp = new LampBlock(MaterialColor.TERRACOTTA_WHITE);	//wtf also no standard white?
 }

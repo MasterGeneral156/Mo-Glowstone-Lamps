@@ -37,6 +37,6 @@ public class LampBlockItem extends BlockItem
 {
     public LampBlockItem(Block blockIn)
     {
-        super(blockIn, new Item.Properties().group(MoGlowstone.ITEMGROUP));
+        super(blockIn, new Item.Properties().tab(MoGlowstone.ITEMGROUP));
     }
 }
