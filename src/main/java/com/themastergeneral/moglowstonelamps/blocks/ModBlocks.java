@@ -1,5 +1,5 @@
 /*
-	Project:	Mo' Glowstone Lamps 1.17
+	Project:	Mo' Glowstone Lamps 1.19
 	File:		com.themastergeneral.moglowstonelamps.blocks.ModBlocks
 	Author:		TheMasterGeneral
 	Website: 	https://github.com/MasterGeneral156/Mo-Glowstone-Lamps
