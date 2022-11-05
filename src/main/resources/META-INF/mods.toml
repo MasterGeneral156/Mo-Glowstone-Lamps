@@ -1,11 +1,11 @@
 modLoader="javafml" #mandatory
-loaderVersion="[40,)" #mandatory
-license="https://github.com/MasterGeneral156/Mo-Glowstone-Lamps/blob/1.18/LICENSE"
+loaderVersion="[43,)" #mandatory
+license="https://github.com/MasterGeneral156/Mo-Glowstone-Lamps/blob/1.19/LICENSE"
 issueTrackerURL="https://github.com/MasterGeneral156/Mo-Glowstone-Lamps/issues" #optional
 # A list of mods - how many allowed here is determined by the individual mod loader
 [[mods]]
 modId="moglowstonelamps" #mandatory
-version="1.1.3" #mandatory
+version="1.2.0" #mandatory
 displayName="Mo' Glowstone Lamps" #mandatory
 updateJSONURL="https://raw.githubusercontent.com/MasterGeneral156/Version/master/MoGlowstoneLamps.json" #optional
 displayURL="https://www.curseforge.com/minecraft/mc-mods/mo-glowstone-lamps" #optional
@@ -13,17 +13,17 @@ logoFile="logo.png" #optional
 credits="TheMasterGeneral" #optional
 authors="TheMasterGeneral" #optional
 # The description text for the mod (multi line!) (#mandatory)
-description="Mo' Glowstone Lamps"
+description="RGB Glowstone Lamps!!"
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.moglowstonelamps]] #optional
     modId="ctdcore" #mandatory
     mandatory=true #mandatory
-    versionRange="[2.1,)" #mandatory
+    versionRange="[2.2,)" #mandatory
     ordering="NONE"
     side="BOTH"
 [[dependencies.moglowstonelamps]]
     modId="moglowstone"
     mandatory=true
-    versionRange="[2.1,)"
+    versionRange="[2.2,)"
     ordering="NONE"
     side="BOTH"
