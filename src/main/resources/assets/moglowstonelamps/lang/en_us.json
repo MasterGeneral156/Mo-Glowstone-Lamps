@@ -13,7 +13,5 @@
     "block.moglowstonelamps.cyan_lamp"="Cyan Glowstone Lamp",
     "block.moglowstonelamps.brown_lamp"="Brown Glowstone Lamp",
     "block.moglowstonelamps.blue_lamp"="Blue Glowstone Lamp",
-    "block.moglowstonelamps.black_lamp"="Black Glowstone Lamp",
-
-    "itemGroup.moglowstonelamps"="Mo' Glowstone Lamps"
+    "block.moglowstonelamps.black_lamp"="Black Glowstone Lamp"
 }

@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "moglowstonelamps:blocks/orange_lamp"
+        "all": "moglowstonelamps:block/orange_lamp"
     }
 }

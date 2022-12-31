@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "moglowstonelamps:blocks/black_lamp"
+        "all": "moglowstonelamps:block/black_lamp"
     }
 }
