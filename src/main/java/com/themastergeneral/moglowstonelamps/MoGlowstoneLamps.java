@@ -30,10 +30,14 @@ package com.themastergeneral.moglowstonelamps;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import com.themastergeneral.moglowstone.MoGlowstone;
+import com.themastergeneral.moglowstonelamps.items.ModItems;
 import com.themastergeneral.moglowstonelamps.blocks.BlockRegistry;
 import com.themastergeneral.moglowstonelamps.items.ItemRegistry;
 
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.event.CreativeModeTabEvent;
+import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -49,7 +53,9 @@ public class MoGlowstoneLamps {
 	public MoGlowstoneLamps() {
 		instance = this;
         // Register the setup method for modloading
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
+		IEventBus modbus = FMLJavaModLoadingContext.get().getModEventBus();
+        modbus.addListener(this::setup);
+        modbus.addListener(this::fillTab);
 
         // Register ourselves for server, registry and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
@@ -61,4 +67,26 @@ public class MoGlowstoneLamps {
     {
 		LOGGER.info("Mo' Glowstone Lamps is launching.");
     }
+	
+	private void fillTab(CreativeModeTabEvent.BuildContents ev)
+	{
+		if (ev.getTab() == MoGlowstone.MoGlowstoneTab)
+		{
+			ev.accept(ModItems.black_lamp);
+			ev.accept(ModItems.blue_lamp);
+			ev.accept(ModItems.brown_lamp);
+			ev.accept(ModItems.cyan_lamp);
+			ev.accept(ModItems.gray_lamp);
+			ev.accept(ModItems.green_lamp);
+			ev.accept(ModItems.light_blue_lamp);
+			ev.accept(ModItems.light_gray_lamp);
+			ev.accept(ModItems.lime_lamp);
+			ev.accept(ModItems.magenta_lamp);
+			ev.accept(ModItems.orange_lamp);
+			ev.accept(ModItems.pink_lamp);
+			ev.accept(ModItems.purple_lamp);
+			ev.accept(ModItems.red_lamp);
+			ev.accept(ModItems.white_lamp);
+		}
+	}
 }

@@ -27,8 +27,6 @@
 */
 package com.themastergeneral.moglowstonelamps.items;
 
-import com.themastergeneral.moglowstone.MoGlowstone;
-
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -37,6 +35,6 @@ public class LampBlockItem extends BlockItem
 {
     public LampBlockItem(Block blockIn)
     {
-        super(blockIn, new Item.Properties().tab(MoGlowstone.ITEMGROUP));
+        super(blockIn, new Item.Properties());
     }
 }
