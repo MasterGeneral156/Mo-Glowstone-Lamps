@@ -1,11 +1,11 @@
 modLoader="javafml"
-loaderVersion="[44,)"
+loaderVersion="[45,)"
 license="https://github.com/MasterGeneral156/Mo-Glowstone-Lamps/blob/1.19/LICENSE"
 issueTrackerURL="https://github.com/MasterGeneral156/Mo-Glowstone-Lamps/issues"
 
 [[mods]]
 modId="moglowstonelamps"
-version="1.3.1b"
+version="1.3.2"
 displayName="Mo' Glowstone Lamps"
 updateJSONURL="https://raw.githubusercontent.com/MasterGeneral156/Version/master/MoGlowstoneLamps.json"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/mo-glowstone-lamps"
