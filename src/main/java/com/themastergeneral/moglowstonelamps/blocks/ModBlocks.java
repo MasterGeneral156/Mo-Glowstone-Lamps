@@ -1,5 +1,5 @@
 /*
-	Project:	Mo' Glowstone Lamps 1.19
+	Project:	Mo' Glowstone Lamps 1.20
 	File:		com.themastergeneral.moglowstonelamps.blocks.ModBlocks
 	Author:		TheMasterGeneral
 	Website: 	https://github.com/MasterGeneral156/Mo-Glowstone-Lamps
@@ -27,22 +27,24 @@
 */
 package com.themastergeneral.moglowstonelamps.blocks;
 
-import net.minecraft.world.level.material.MaterialColor;
+import com.themastergeneral.moglowstone.blocks.GSBlock;
+
+import net.minecraft.world.level.material.MapColor;
 
 public class ModBlocks {
-	public static LampBlock black_lamp = new LampBlock(MaterialColor.COLOR_BLACK);
-	public static LampBlock blue_lamp = new LampBlock(MaterialColor.COLOR_BLUE);
-	public static LampBlock brown_lamp = new LampBlock(MaterialColor.COLOR_BROWN);
-	public static LampBlock cyan_lamp = new LampBlock(MaterialColor.COLOR_CYAN);
-	public static LampBlock gray_lamp = new LampBlock(MaterialColor.COLOR_GRAY);
-	public static LampBlock green_lamp = new LampBlock(MaterialColor.COLOR_GREEN);
-	public static LampBlock light_blue_lamp = new LampBlock(MaterialColor.COLOR_LIGHT_BLUE);
-	public static LampBlock light_gray_lamp = new LampBlock(MaterialColor.COLOR_LIGHT_GRAY);
-	public static LampBlock lime_lamp = new LampBlock(MaterialColor.COLOR_LIGHT_GREEN);
-	public static LampBlock magenta_lamp = new LampBlock(MaterialColor.COLOR_MAGENTA);
-	public static LampBlock orange_lamp = new LampBlock(MaterialColor.TERRACOTTA_ORANGE);	//wtf no standard orange? lmao
-	public static LampBlock pink_lamp = new LampBlock(MaterialColor.COLOR_PINK);
-	public static LampBlock purple_lamp = new LampBlock(MaterialColor.COLOR_PURPLE);
-	public static LampBlock red_lamp = new LampBlock(MaterialColor.COLOR_RED);
-	public static LampBlock white_lamp = new LampBlock(MaterialColor.TERRACOTTA_WHITE);	//wtf also no standard white?
+	public static GSBlock black_lamp = new GSBlock(MapColor.COLOR_BLACK);
+	public static GSBlock blue_lamp = new GSBlock(MapColor.COLOR_BLUE);
+	public static GSBlock brown_lamp = new GSBlock(MapColor.COLOR_BROWN);
+	public static GSBlock cyan_lamp = new GSBlock(MapColor.COLOR_CYAN);
+	public static GSBlock gray_lamp = new GSBlock(MapColor.COLOR_GRAY);
+	public static GSBlock green_lamp = new GSBlock(MapColor.COLOR_GREEN);
+	public static GSBlock light_blue_lamp = new GSBlock(MapColor.COLOR_LIGHT_BLUE);
+	public static GSBlock light_gray_lamp = new GSBlock(MapColor.COLOR_LIGHT_GRAY);
+	public static GSBlock lime_lamp = new GSBlock(MapColor.COLOR_LIGHT_GREEN);
+	public static GSBlock magenta_lamp = new GSBlock(MapColor.COLOR_MAGENTA);
+	public static GSBlock orange_lamp = new GSBlock(MapColor.COLOR_ORANGE);
+	public static GSBlock pink_lamp = new GSBlock(MapColor.COLOR_PINK);
+	public static GSBlock purple_lamp = new GSBlock(MapColor.COLOR_PURPLE);
+	public static GSBlock red_lamp = new GSBlock(MapColor.COLOR_RED);
+	public static GSBlock white_lamp = new GSBlock(MapColor.SNOW);	//wtf also no standard white?
 }

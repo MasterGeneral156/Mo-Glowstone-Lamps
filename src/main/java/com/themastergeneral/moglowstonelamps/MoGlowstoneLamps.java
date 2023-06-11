@@ -1,5 +1,5 @@
 /*
-	Project:	Mo' Glowstone Lamps 1.19
+	Project:	Mo' Glowstone Lamps 1.20
 	File:		com.themastergeneral.moglowstonelamps.MoGlowstoneLamps
 	Author:		TheMasterGeneral
 	Website: 	https://github.com/MasterGeneral156/Mo-Glowstone-Lamps
@@ -31,12 +31,13 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import com.themastergeneral.moglowstone.MoGlowstone;
+import com.themastergeneral.moglowstone.TabRegistry;
 import com.themastergeneral.moglowstonelamps.items.ModItems;
 import com.themastergeneral.moglowstonelamps.blocks.BlockRegistry;
 import com.themastergeneral.moglowstonelamps.items.ItemRegistry;
 
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.event.CreativeModeTabEvent;
+import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -54,13 +55,15 @@ public class MoGlowstoneLamps {
 		instance = this;
         // Register the setup method for modloading
 		IEventBus modbus = FMLJavaModLoadingContext.get().getModEventBus();
-        modbus.addListener(this::setup);
-        modbus.addListener(this::fillTab);
+		
+		modbus.addListener(this::setup);
 
         // Register ourselves for server, registry and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
         ItemRegistry.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
         BlockRegistry.BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        
+        modbus.addListener(this::fillTab);
     }
 	
 	private void setup(final FMLCommonSetupEvent event)
@@ -68,9 +71,9 @@ public class MoGlowstoneLamps {
 		LOGGER.info("Mo' Glowstone Lamps is launching.");
     }
 	
-	private void fillTab(CreativeModeTabEvent.BuildContents ev)
+	private void fillTab(BuildCreativeModeTabContentsEvent ev)
 	{
-		if (ev.getTab() == MoGlowstone.MoGlowstoneTab)
+		if (ev.getTab() == TabRegistry.MOGLOWSTONE_TAB.get())
 		{
 			ev.accept(ModItems.black_lamp);
 			ev.accept(ModItems.blue_lamp);
