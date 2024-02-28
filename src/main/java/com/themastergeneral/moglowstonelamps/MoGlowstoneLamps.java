@@ -30,18 +30,16 @@ package com.themastergeneral.moglowstonelamps;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import com.themastergeneral.moglowstone.MoGlowstone;
 import com.themastergeneral.moglowstone.TabRegistry;
 import com.themastergeneral.moglowstonelamps.items.ModItems;
+
+import net.neoforged.bus.api.IEventBus;
+import net.neoforged.fml.common.Mod;
+import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
+
 import com.themastergeneral.moglowstonelamps.blocks.BlockRegistry;
 import com.themastergeneral.moglowstonelamps.items.ItemRegistry;
-
-import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
-import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
 @Mod("moglowstonelamps")
 public class MoGlowstoneLamps {
@@ -51,19 +49,15 @@ public class MoGlowstoneLamps {
 
 	public static final String MODID = "moglowstonelamps";
 
-	public MoGlowstoneLamps() {
+	public MoGlowstoneLamps(IEventBus modEventBus) {
 		instance = this;
         // Register the setup method for modloading
-		IEventBus modbus = FMLJavaModLoadingContext.get().getModEventBus();
 		
-		modbus.addListener(this::setup);
-
-        // Register ourselves for server, registry and other game events we are interested in
-        MinecraftForge.EVENT_BUS.register(this);
-        ItemRegistry.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
-        BlockRegistry.BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
+		modEventBus.addListener(this::setup);
+        ItemRegistry.ITEMS.register(modEventBus);
+        BlockRegistry.BLOCKS.register(modEventBus);
         
-        modbus.addListener(this::fillTab);
+        modEventBus.addListener(this::fillTab);
     }
 	
 	private void setup(final FMLCommonSetupEvent event)
