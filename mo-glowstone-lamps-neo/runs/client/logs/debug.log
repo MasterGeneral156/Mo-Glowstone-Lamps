@@ -1,0 +1,663 @@
+[27Jun2024 02:27:34.554] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, 21.0.0-beta, --assetIndex, asset-index, --assetsDir, C:\Users\Ryan\.gradle\caches\minecraft\assets\1.21, --gameDir, ., --fml.neoForgeVersion, 21.0.0-beta, --fml.fmlVersion, 4.0.1, --fml.mcVersion, 1.21, --fml.neoFormVersion, 20240613.152323]
+[27Jun2024 02:27:34.556] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.2+13-LTS
+[27Jun2024 02:27:34.559] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.2+main.4612c65f starting: java version 21.0.2 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[27Jun2024 02:27:34.576] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [minecraft,forgeclient,forgedatauserdev,testharness,forgeserverdev,forgeserveruserdev,forgejunitdev,forgeclientdev,forgeclientuserdev,forgeserver,forgejunituserdev,forgedatadev]
+[27Jun2024 02:27:34.591] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,slf4jfixer,runtime_enum_extender,accesstransformer,runtimedistcleaner]
+[27Jun2024 02:27:34.598] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[27Jun2024 02:27:34.601] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path GAMEDIR is G:\GitHub\1.21 Mo Glowstone Lamps\mo-glowstone-lamps-neo\runs\client
+[27Jun2024 02:27:34.601] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path MODSDIR is G:\GitHub\1.21 Mo Glowstone Lamps\mo-glowstone-lamps-neo\runs\client\mods
+[27Jun2024 02:27:34.602] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is G:\GitHub\1.21 Mo Glowstone Lamps\mo-glowstone-lamps-neo\runs\client\config
+[27Jun2024 02:27:34.602] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is G:\GitHub\1.21 Mo Glowstone Lamps\mo-glowstone-lamps-neo\runs\client\config\fml.toml
+[27Jun2024 02:27:34.630] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: Loaded FML config from G:\GitHub\1.21 Mo Glowstone Lamps\mo-glowstone-lamps-neo\runs\client\config\fml.toml
+[27Jun2024 02:27:34.630] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig disableConfigWatcher is false
+[27Jun2024 02:27:34.630] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowControl is true
+[27Jun2024 02:27:34.630] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig maxThreads is 16
+[27Jun2024 02:27:34.630] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig versionCheck is true
+[27Jun2024 02:27:34.630] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig defaultConfigPath is defaultconfigs
+[27Jun2024 02:27:34.630] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig disableOptimizedDFU is true
+[27Jun2024 02:27:34.630] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowProvider is fmlearlywindow
+[27Jun2024 02:27:34.631] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowWidth is 854
+[27Jun2024 02:27:34.631] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowHeight is 480
+[27Jun2024 02:27:34.631] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowFBScale is 1
+[27Jun2024 02:27:34.631] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowMaximized is false
+[27Jun2024 02:27:34.631] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowSkipGLVersions is []
+[27Jun2024 02:27:34.631] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowSquir is false
+[27Jun2024 02:27:34.639] [main/DEBUG] [net.neoforged.fml.loading.targets.CommonLaunchHandler/CORE]: Got mod coordinates mo-glowstone-lamps-neo%%G:\GitHub\1.21 Mo Glowstone Lamps\mo-glowstone-lamps-neo\build\resources\main;mo-glowstone-lamps-neo%%G:\GitHub\1.21 Mo Glowstone Lamps\mo-glowstone-lamps-neo\build\classes\java\main from env
+[27Jun2024 02:27:34.642] [main/DEBUG] [net.neoforged.fml.loading.targets.CommonLaunchHandler/CORE]: Found supplied mod coordinates [{mo-glowstone-lamps-neo=[G:\GitHub\1.21 Mo Glowstone Lamps\mo-glowstone-lamps-neo\build\resources\main, G:\GitHub\1.21 Mo Glowstone Lamps\mo-glowstone-lamps-neo\build\classes\java\main]}]
+[27Jun2024 02:27:34.645] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: 
+[27Jun2024 02:27:34.651] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[27Jun2024 02:27:34.754] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[27Jun2024 02:27:34.815] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[27Jun2024 02:27:34.857] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,mixin-synthetic-package,fml]
+[27Jun2024 02:27:34.857] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[27Jun2024 02:27:34.857] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
+[27Jun2024 02:27:34.858] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
+[27Jun2024 02:27:34.858] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin-synthetic-package
+[27Jun2024 02:27:34.858] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin-synthetic-package
+[27Jun2024 02:27:34.858] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[27Jun2024 02:27:34.858] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML 4.0.1 loading
+[27Jun2024 02:27:34.858] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 11.0.2+main.4612c65f
+[27Jun2024 02:27:34.859] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 10.0.1+139da711
+[27Jun2024 02:27:34.859] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML found EventBus version : null
+[27Jun2024 02:27:34.860] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[27Jun2024 02:27:34.860] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[27Jun2024 02:27:34.860] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[27Jun2024 02:27:34.875] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Received command line version data  : VersionInfo[neoForgeVersion=21.0.0-beta, fmlVersion=4.0.1, mcVersion=1.21, neoFormVersion=20240613.152323]
+[27Jun2024 02:27:34.875] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[27Jun2024 02:27:34.875] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
+[27Jun2024 02:27:34.883] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@40cb8df7
+[27Jun2024 02:27:34.891] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Ryan/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.13.4+mixin.0.8.5/8adf0cff1795a169141b9e16ad7b9f6e2527a990/sponge-mixin-0.13.4+mixin.0.8.5.jar%23136!/ Service=ModLauncher Env=CLIENT
+[27Jun2024 02:27:34.893] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[27Jun2024 02:27:34.893] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[27Jun2024 02:27:34.893] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[27Jun2024 02:27:34.894] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[27Jun2024 02:27:34.894] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[27Jun2024 02:27:34.894] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[27Jun2024 02:27:34.895] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
+[27Jun2024 02:27:34.896] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin-synthetic-package
+[27Jun2024 02:27:34.896] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin-synthetic-package
+[27Jun2024 02:27:34.896] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[27Jun2024 02:27:34.896] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[27Jun2024 02:27:34.896] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path GAMEDIR is G:\GitHub\1.21 Mo Glowstone Lamps\mo-glowstone-lamps-neo\runs\client
+[27Jun2024 02:27:34.896] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path MODSDIR is G:\GitHub\1.21 Mo Glowstone Lamps\mo-glowstone-lamps-neo\runs\client\mods
+[27Jun2024 02:27:34.896] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is G:\GitHub\1.21 Mo Glowstone Lamps\mo-glowstone-lamps-neo\runs\client\config
+[27Jun2024 02:27:34.896] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is G:\GitHub\1.21 Mo Glowstone Lamps\mo-glowstone-lamps-neo\runs\client\config\fml.toml
+[27Jun2024 02:27:34.897] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[27Jun2024 02:27:34.902] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: Loaded FML config from G:\GitHub\1.21 Mo Glowstone Lamps\mo-glowstone-lamps-neo\runs\client\config\fml.toml
+[27Jun2024 02:27:34.902] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig disableConfigWatcher is false
+[27Jun2024 02:27:34.902] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowControl is true
+[27Jun2024 02:27:34.902] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig maxThreads is 16
+[27Jun2024 02:27:34.902] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig versionCheck is true
+[27Jun2024 02:27:34.902] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig defaultConfigPath is defaultconfigs
+[27Jun2024 02:27:34.902] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig disableOptimizedDFU is true
+[27Jun2024 02:27:34.902] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowProvider is fmlearlywindow
+[27Jun2024 02:27:34.902] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowWidth is 854
+[27Jun2024 02:27:34.903] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowHeight is 480
+[27Jun2024 02:27:34.903] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowFBScale is 1
+[27Jun2024 02:27:34.903] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowMaximized is false
+[27Jun2024 02:27:34.903] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowSkipGLVersions is []
+[27Jun2024 02:27:34.903] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowSquir is false
+[27Jun2024 02:27:34.905] [main/DEBUG] [net.neoforged.fml.loading.LaunchContext/SCAN]: Located paths when launch context was created: [C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\32.1.2-jre\5e64ec7e056456bef3a4bc4c6fdaef71e8ab6318\guava-32.1.2-jre.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\net.neoforged\JarJarMetadata\0.4.1\f8da03683dc81694556dc3e177c5e3bb77ae6fcb\JarJarMetadata-0.4.1.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\24.1.0\7af6a669488450c4a07c2c3254e2151df42d7d04\annotations-24.1.0.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.3\87b8d5050e3adb46bb58fe1cb2669a4a48fce10d\lwjgl-openal-3.3.3-natives-windows-x86.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\net.neoforged\accesstransformers\10.0.1\fd83b5725f76eae9115e9355fa1c456a6a441400\accesstransformers-10.0.1.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\net.neoforged\coremods\7.0.3\9147e6f638b4272b3bd5fc8f92ad37802512c6c\coremods-7.0.3.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\net.neoforged\neoform\1.21-20240613.152323\6293c1a6b9b053ea4e41ac2fe03a3342486d45b1\neoform-1.21-20240613.152323.zip, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\com.mojang\datafixerupper\8.0.16\67d4de6d7f95d89bcf5862995fb854ebaec02a34\datafixerupper-8.0.16.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.antlr\antlr4-runtime\4.13.1\17125bae1d965624e265ef49552f6465a2bfa307\antlr4-runtime-4.13.1.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\net.neoforged\mergetool\2.0.3\1275202cbbb248f49345cf6787ce299afd9a02fb\mergetool-2.0.3-api.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.10.1\b3add478d4382b78ea20b1671390a858002feb6c\gson-2.10.1.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\com.electronwill.night-config\toml\3.6.4\51d6cefb2b55ee55ee26b16391212fb2c7dfb4f4\toml-3.6.4.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.3\daada81ceb5fc0c291fbfdd4433cb8d9423577f2\lwjgl-openal-3.3.3.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-classes-epoll\4.1.97.Final\795da37ded759e862457a82d9d92c4d39ce8ecee\netty-transport-classes-epoll-4.1.97.Final.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.3\b543467b7ff3c6920539a88ee602d34098628be5\lwjgl-jemalloc-3.3.3.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\net.jodah\typetools\0.6.3\a01aaa6ddaea9ec07ec4f209487b7a46a526283a\typetools-0.6.3.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.3\32334f3fd5270a59bad9939a93115acb6de36dcf\lwjgl-glfw-3.3.3-natives-windows-x86.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna-platform\5.14.0\28934d48aed814f11e4c584da55c49fa7032b31b\jna-platform-5.14.0.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\5.0.4\4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c\jopt-simple-5.0.4.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.4.16\51cf043c87253c9f58b539c9f7e44c8894223850\httpcore-4.4.16.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\net.neoforged.fancymodloader\loader\4.0.1\f0f710dfa4703254137fcfa892a0ed67f66aeb50\loader-4.0.1.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.3\efa1eb78c5ccd840e9f329717109b5e892d72f8e\lwjgl-glfw-3.3.3.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.22.1\bea6fede6328fabafd7e68363161a7ea6605abd1\log4j-api-2.22.1.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-unix-common\4.1.97.Final\d469d84265ab70095b01b40886cabdd433b6e664\netty-transport-native-unix-common-4.1.97.Final.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.joml\joml\1.10.5\22566d58af70ad3d72308bab63b8339906deb649\joml-1.10.5.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.3\2f6b0147078396a58979125a4c947664e98293a\lwjgl-opengl-3.3.3.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\com.google.errorprone\error_prone_annotations\2.18.0\89b684257096f548fa39a7df9fdaa409d4d4df91\error_prone_annotations-2.18.0.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\net.neoforged\bus\8.0.1\9df0ed904cec279eb33ca6df420f6f82706ebb4c\bus-8.0.1.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\com.machinezoo.noexception\noexception\1.7.1\b65330c98e38a1f915fa54a6e5eca496505e3f0a\noexception-1.7.1.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.5.13\e5f6cae5ca7ecaac1ec2827a9e2d65ae2869cada\httpclient-4.5.13.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.jline\jline-terminal\3.12.1\c777448314e050d980a6b697c140f3bfe9eb7416\jline-terminal-3.12.1.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.3\82d755ca94b102e9ca77283b9e2dc46d1b15fbe5\lwjgl-tinyfd-3.3.3.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.lz4\lz4-java\1.8.0\4b986a99445e49ea5fbf5d149c4b63f6ed6c6780\lz4-java-1.8.0.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\io.netty\netty-resolver\4.1.97.Final\cec8348108dc76c47cf87c669d514be52c922144\netty-resolver-4.1.97.Final.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.jcraft\jorbis\0.0.17\8872d22b293e8f5d7d56ff92be966e6dc28ebdc6\jorbis-0.0.17.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.14.0\1ed471194b02f2c6cb734a0cd6f6f107c673afae\commons-lang3-3.14.0.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-freetype\3.3.3\a0db6c84a8becc8ca05f9dbfa985edc348a824c7\lwjgl-freetype-3.3.3.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.26.0\659feffdd12280201c8aacb8f7be94f9a883c824\commons-compress-1.26.0.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\io.netty\netty-common\4.1.97.Final\7cceacaf11df8dc63f23d0fb58e9d4640fc88404\netty-common-4.1.97.Final.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\com.github.oshi\oshi-core\6.4.10\b1d8ab82d11d92fd639b56d639f8f46f739dd5fa\oshi-core-6.4.10.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.22.1\7183a25510a02ad00cc6a95d3b3d2a7d3c5a8dc4\log4j-core-2.22.1.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.jline\jline-reader\3.12.1\4382ab1382c7b6f379377ed5f665dc2f6e1218bc\jline-reader-3.12.1.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\it.unimi.dsi\fastutil\8.5.12\c24946d46824bd528054bface3231d2ecb7e95e8\fastutil-8.5.12.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.3\1d9facdf6541de114b0f963be33505b7679c78cb\lwjgl-stb-3.3.3-natives-windows.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\com.mojang\authlib\6.0.54\de8bc95660e1b2fe8793fd427a7a10dcec5b3ea7\authlib-6.0.54.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\net.neoforged.fancymodloader\earlydisplay\4.0.1\305d5c40b62890e9a862f92cab8dff3080446c80\earlydisplay-4.0.1.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\unsafe\0.2.0\54d7a0a5e8fdb71b973025caa46f341ae5904f39\unsafe-0.2.0.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\net.minecrell\terminalconsoleappender\1.2.0\96d02cd3b384ff015a8fef4223bcb4ccf1717c95\terminalconsoleappender-1.2.0.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\net.neoforged\JarJarSelector\0.4.1\fb3cc7a58af22ad2880adb98af6d518128c47dae\JarJarSelector-0.4.1.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\com.mojang\text2speech\1.17.9\3cad216e3a7f0c19b4b394388bc9ffc446f13b14\text2speech-1.17.9.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.codehaus.plexus\plexus-utils\3.3.0\cf43b5391de623b36fe066a21127baef82c64022\plexus-utils-3.3.0.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.3\a6697981b0449a5087c1d546fc08b4f73e8f98c9\lwjgl-tinyfd-3.3.3-natives-windows.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.3\426222fc027602a5f21b9c0fe79cde6a4c7a011f\lwjgl-jemalloc-3.3.3-natives-windows.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\io.netty\netty-buffer\4.1.97.Final\f8f3d8644afa5e6e1a40a3a6aeb9d9aa970ecb4f\netty-buffer-4.1.97.Final.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.checkerframework\checker-qual\3.33.0\de2b60b62da487644fc11f734e73c8b0b431238f\checker-qual-3.33.0.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\ca.weblite\java-objc-bridge\1.1\1227f9e0666314f9de41477e3ec277e542ed7f7b\java-objc-bridge-1.1.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\com.mojang\brigadier\1.2.9\73e324f2ee541493a5179abf367237faa782ed21\brigadier-1.2.9.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\cpw.mods\modlauncher\11.0.2\87260bdd037c8cca573b21850214c7def5b78bcc\modlauncher-11.0.2.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.3\29589b5f87ed335a6c7e7ee6a5775f81f97ecb84\lwjgl-3.3.3.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.2\4bfc12adfe4842bf07b657f0369c4cb522955686\commons-logging-1.2.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j\73.2\61ad4ef7f9131fcf6d25c34b817f90d6da06c9e9\icu4j-73.2.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.3\9e670718e050aeaeea0c2d5b907cffb142f2e58f\lwjgl-3.3.3-natives-windows-x86.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-freetype\3.3.3\15a8c1de7f51d07a92eae7ce1222557073a0c0c3\lwjgl-freetype-3.3.3-natives-windows-x86.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\com.google.j2objc\j2objc-annotations\2.8\c85270e307e7b822f1086b93689124b89768e273\j2objc-annotations-2.8.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.15.1\f11560da189ab563a5c8e351941415430e9304ea\commons-io-2.15.1.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\com.electronwill.night-config\core\3.6.4\510f174abbf1c947494db50ef2445683bd52c230\core-3.6.4.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\com.mojang\logging\1.2.7\24cb95ffb0e3433fd6e844c04e68009e504ca1c0\logging-1.2.7.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.8.5\4433f50c07debefaed0553bd0068f4f48d449313\maven-artifact-3.8.5.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.16.0\4e3eb3d79888d76b54e28b350915b5dc3919c9de\commons-codec-1.16.0.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\com.mojang\patchy\2.2.10\da05971b07cbb379d002cf7eaec6a2048211fefc\patchy-2.2.10.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna\5.14.0\67bf3eaea4f0718cb376a181a629e5f88fa1c9dd\jna-5.14.0.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\net.fabricmc\sponge-mixin\0.13.4+mixin.0.8.5\8adf0cff1795a169141b9e16ad7b9f6e2527a990\sponge-mixin-0.13.4+mixin.0.8.5.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\io.netty\netty-handler\4.1.97.Final\abb86c6906bf512bf2b797a41cd7d2e8d3cd7c36\netty-handler-4.1.97.Final.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\net.neoforged.accesstransformers\at-modlauncher\10.0.1\5aba50202aceead086bc09fbc2751c9f05cb4890\at-modlauncher-10.0.1.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.openjdk.nashorn\nashorn-core\15.4\f67f5ffaa5f5130cf6fb9b133da00c7df3b532a5\nashorn-core-15.4.jar, G:\GitHub\1.21 Mo Glowstone Lamps\mo-glowstone-lamps-neo\.gradle\repositories\ng_dummy_ng\net\minecraft\client\1.21\client-1.21-client-extra.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-slf4j2-impl\2.22.1\d7e6693c2606cb7e7335047d7bb96dec52db5665\log4j-slf4j2-impl-2.22.1.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\2.0.9\7cf2726fdcfbc8610f9a71fb3ed639871f315340\slf4j-api-2.0.9.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\com.mojang\blocklist\1.0.10\5c685c5ffa94c4cd39496c7184c1d122e515ecef\blocklist-1.0.10.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.3\25dd6161988d7e65f71d5065c99902402ee32746\lwjgl-stb-3.3.3.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\srgutils\0.4.15\ca408b131759478f164e010fae0d73997e125fb5\srgutils-0.4.15.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport\4.1.97.Final\f37380d23c9bb079bc702910833b2fd532c9abd0\netty-transport-4.1.97.Final.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\com.google.guava\failureaccess\1.0.1\1dcf1de382a0bf95a3d8b0849546c88bac1292c9\failureaccess-1.0.1.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec\4.1.97.Final\384ba4d75670befbedb45c4d3b497a93639c206d\netty-codec-4.1.97.Final.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.3\65e956d3735a1abdc82eff4baec1b61174697d4b\lwjgl-opengl-3.3.3-natives-windows-arm64.jar, C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\com.google.guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\b421526c5f297295adef1c886e5246c39d4ac629\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar]
+[27Jun2024 02:27:34.905] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[27Jun2024 02:27:34.905] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: Using forgeclientuserdev as launch service
+[27Jun2024 02:27:34.906] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Configuring for Dist CLIENT
+[27Jun2024 02:27:34.907] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[27Jun2024 02:27:34.907] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[27Jun2024 02:27:34.907] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
+[27Jun2024 02:27:34.907] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
+[27Jun2024 02:27:34.908] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin-synthetic-package
+[27Jun2024 02:27:34.983] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin-synthetic-package
+[27Jun2024 02:27:34.983] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[27Jun2024 02:27:34.983] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[27Jun2024 02:27:34.985] [main/DEBUG] [net.neoforged.fml.loading.targets.CommonLaunchHandler/CORE]: Got mod coordinates mo-glowstone-lamps-neo%%G:\GitHub\1.21 Mo Glowstone Lamps\mo-glowstone-lamps-neo\build\resources\main;mo-glowstone-lamps-neo%%G:\GitHub\1.21 Mo Glowstone Lamps\mo-glowstone-lamps-neo\build\classes\java\main from env
+[27Jun2024 02:27:34.986] [main/DEBUG] [net.neoforged.fml.loading.targets.CommonLaunchHandler/CORE]: Found supplied mod coordinates [{mo-glowstone-lamps-neo=[G:\GitHub\1.21 Mo Glowstone Lamps\mo-glowstone-lamps-neo\build\resources\main, G:\GitHub\1.21 Mo Glowstone Lamps\mo-glowstone-lamps-neo\build\classes\java\main]}]
+[27Jun2024 02:27:34.995] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 4 implementations of IModFileCandidateLocator:
+[27Jun2024 02:27:34.996] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - [built-in] net.neoforged.fml.loading.moddiscovery.locators.NeoForgeDevProvider from loader-4.0.1.jar
+[27Jun2024 02:27:34.996] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - net.neoforged.fml.loading.moddiscovery.locators.ModsFolderLocator from loader-4.0.1.jar
+[27Jun2024 02:27:34.996] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - net.neoforged.fml.loading.moddiscovery.locators.MavenDirectoryLocator from loader-4.0.1.jar
+[27Jun2024 02:27:34.996] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	   -1000 - [built-in] net.neoforged.fml.loading.moddiscovery.locators.UserdevLocator from loader-4.0.1.jar
+[27Jun2024 02:27:34.998] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 2 implementations of IModFileReader:
+[27Jun2024 02:27:34.998] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader from loader-4.0.1.jar
+[27Jun2024 02:27:34.999] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	   -1000 - net.neoforged.fml.loading.moddiscovery.readers.NestedLibraryModReader from loader-4.0.1.jar
+[27Jun2024 02:27:35.000] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 1 implementations of IDependencyLocator:
+[27Jun2024 02:27:35.000] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator from loader-4.0.1.jar
+[27Jun2024 02:27:35.000] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Scanning for mods and other resources to load. We know 4 ways to find mods
+[27Jun2024 02:27:35.000] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator neoforge devenv provider ([G:\GitHub\1.21 Mo Glowstone Lamps\mo-glowstone-lamps-neo\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.0.0-beta\neoforge-21.0.0-beta.jar])
+[27Jun2024 02:27:35.095] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: AMD Radeon RX 5700 XT GL version 4.6.0 Core Profile Context 23.11.1.231020, ATI Technologies Inc.
+[27Jun2024 02:27:35.168] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file neoforge-21.0.0-beta.jar with {minecraft} mods - versions {1.21}
+[27Jun2024 02:27:35.169] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.0.0-beta.jar" [locator: neoforge devenv provider ([G:\GitHub\1.21 Mo Glowstone Lamps\mo-glowstone-lamps-neo\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.0.0-beta\neoforge-21.0.0-beta.jar])]
+[27Jun2024 02:27:35.174] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/neoforge.mods.toml mod of type null: G:\GitHub\1.21 Mo Glowstone Lamps\mo-glowstone-lamps-neo\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.0.0-beta\neoforge-21.0.0-beta.jar
+[27Jun2024 02:27:35.175] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate G:\GitHub\1.21 Mo Glowstone Lamps\mo-glowstone-lamps-neo\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.0.0-beta\neoforge-21.0.0-beta.jar
+[27Jun2024 02:27:35.179] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file neoforge-21.0.0-beta.jar with {neoforge} mods - versions {21.0.0-beta}
+[27Jun2024 02:27:35.179] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.0.0-beta.jar" [locator: neoforge devenv provider ([G:\GitHub\1.21 Mo Glowstone Lamps\mo-glowstone-lamps-neo\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.0.0-beta\neoforge-21.0.0-beta.jar])]
+[27Jun2024 02:27:35.179] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator neoforge devenv provider ([G:\GitHub\1.21 Mo Glowstone Lamps\mo-glowstone-lamps-neo\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.0.0-beta\neoforge-21.0.0-beta.jar]) found 2 mods, 0 warnings, 0 errors and skipped 0 candidates
+[27Jun2024 02:27:35.180] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator {mods folder locator at G:\GitHub\1.21 Mo Glowstone Lamps\mo-glowstone-lamps-neo\runs\client\mods}
+[27Jun2024 02:27:35.180] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.locators.ModsFolderLocator/SCAN]: Scanning mods dir G:\GitHub\1.21 Mo Glowstone Lamps\mo-glowstone-lamps-neo\runs\client\mods for mods
+[27Jun2024 02:27:35.181] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {mods folder locator at G:\GitHub\1.21 Mo Glowstone Lamps\mo-glowstone-lamps-neo\runs\client\mods} found 0 mods, 0 warnings, 0 errors and skipped 0 candidates
+[27Jun2024 02:27:35.181] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator maven libs
+[27Jun2024 02:27:35.183] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[27Jun2024 02:27:35.183] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator maven libs found 0 mods, 0 warnings, 0 errors and skipped 0 candidates
+[27Jun2024 02:27:35.183] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator userdev mods and services
+[27Jun2024 02:27:35.184] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/neoforge.mods.toml mod of type null: G:\GitHub\1.21 Mo Glowstone Lamps\mo-glowstone-lamps-neo\build\resources\main
+[27Jun2024 02:27:35.184] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate G:\GitHub\1.21 Mo Glowstone Lamps\mo-glowstone-lamps-neo\build\resources\main
+[27Jun2024 02:27:35.188] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file main with {moglowstonelamps} mods - versions {1.6.0}
+[27Jun2024 02:27:35.188] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "main" [locator: userdev mods and services, reader: mod manifest]
+[27Jun2024 02:27:35.196] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/neoforge.mods.toml mod of type null: G:\GitHub\1.21 Mo Glowstone Lamps\mo-glowstone-lamps-neo\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.0.0-beta\neoforge-21.0.0-beta.jar
+[27Jun2024 02:27:35.196] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate G:\GitHub\1.21 Mo Glowstone Lamps\mo-glowstone-lamps-neo\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.0.0-beta\neoforge-21.0.0-beta.jar
+[27Jun2024 02:27:35.197] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file neoforge-21.0.0-beta.jar with {neoforge} mods - versions {21.0.0-beta}
+[27Jun2024 02:27:35.197] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.0.0-beta.jar" [locator: userdev mods and services, reader: mod manifest]
+[27Jun2024 02:27:35.201] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/neoforge.mods.toml mod of type null: C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\curse.maven\ctd-core-258186\5447006\f2fde9f1589bae8d8f4dae2a6a7e2f460f21ec23\ctd-core-258186-5447006.jar
+[27Jun2024 02:27:35.201] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\curse.maven\ctd-core-258186\5447006\f2fde9f1589bae8d8f4dae2a6a7e2f460f21ec23\ctd-core-258186-5447006.jar
+[27Jun2024 02:27:35.202] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file ctd-core-258186-5447006.jar with {ctdcore} mods - versions {2.6.1}
+[27Jun2024 02:27:35.202] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ctd-core-258186-5447006.jar" [locator: userdev mods and services, reader: mod manifest]
+[27Jun2024 02:27:35.205] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/neoforge.mods.toml mod of type null: C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\curse.maven\mo-glowstone-253336\5478547\34883e9fbb2320a2f726d1174c411fd8191836e9\mo-glowstone-253336-5478547.jar
+[27Jun2024 02:27:35.205] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\curse.maven\mo-glowstone-253336\5478547\34883e9fbb2320a2f726d1174c411fd8191836e9\mo-glowstone-253336-5478547.jar
+[27Jun2024 02:27:35.206] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file mo-glowstone-253336-5478547.jar with {moglowstone} mods - versions {2.6.1}
+[27Jun2024 02:27:35.207] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mo-glowstone-253336-5478547.jar" [locator: userdev mods and services, reader: mod manifest]
+[27Jun2024 02:27:35.230] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\net.neoforged.fancymodloader\earlydisplay\4.0.1\305d5c40b62890e9a862f92cab8dff3080446c80\earlydisplay-4.0.1.jar because it was already located earlier
+[27Jun2024 02:27:35.230] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\net.neoforged.fancymodloader\loader\4.0.1\f0f710dfa4703254137fcfa892a0ed67f66aeb50\loader-4.0.1.jar because it was already located earlier
+[27Jun2024 02:27:35.230] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\net.neoforged\coremods\7.0.3\9147e6f638b4272b3bd5fc8f92ad37802512c6c\coremods-7.0.3.jar because it was already located earlier
+[27Jun2024 02:27:35.230] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\cpw.mods\modlauncher\11.0.2\87260bdd037c8cca573b21850214c7def5b78bcc\modlauncher-11.0.2.jar because it was already located earlier
+[27Jun2024 02:27:35.230] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\net.neoforged.accesstransformers\at-modlauncher\10.0.1\5aba50202aceead086bc09fbc2751c9f05cb4890\at-modlauncher-10.0.1.jar because it was already located earlier
+[27Jun2024 02:27:35.230] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\net.neoforged\accesstransformers\10.0.1\fd83b5725f76eae9115e9355fa1c456a6a441400\accesstransformers-10.0.1.jar because it was already located earlier
+[27Jun2024 02:27:35.230] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.openjdk.nashorn\nashorn-core\15.4\f67f5ffaa5f5130cf6fb9b133da00c7df3b532a5\nashorn-core-15.4.jar because it was already located earlier
+[27Jun2024 02:27:35.230] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\net.neoforged\mergetool\2.0.3\1275202cbbb248f49345cf6787ce299afd9a02fb\mergetool-2.0.3-api.jar because it was already located earlier
+[27Jun2024 02:27:35.230] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\net.neoforged\bus\8.0.1\9df0ed904cec279eb33ca6df420f6f82706ebb4c\bus-8.0.1.jar because it was already located earlier
+[27Jun2024 02:27:35.230] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\unsafe\0.2.0\54d7a0a5e8fdb71b973025caa46f341ae5904f39\unsafe-0.2.0.jar because it was already located earlier
+[27Jun2024 02:27:35.231] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\com.electronwill.night-config\toml\3.6.4\51d6cefb2b55ee55ee26b16391212fb2c7dfb4f4\toml-3.6.4.jar because it was already located earlier
+[27Jun2024 02:27:35.231] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\com.electronwill.night-config\core\3.6.4\510f174abbf1c947494db50ef2445683bd52c230\core-3.6.4.jar because it was already located earlier
+[27Jun2024 02:27:35.231] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\net.neoforged\JarJarSelector\0.4.1\fb3cc7a58af22ad2880adb98af6d518128c47dae\JarJarSelector-0.4.1.jar because it was already located earlier
+[27Jun2024 02:27:35.231] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\net.neoforged\JarJarMetadata\0.4.1\f8da03683dc81694556dc3e177c5e3bb77ae6fcb\JarJarMetadata-0.4.1.jar because it was already located earlier
+[27Jun2024 02:27:35.231] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.8.5\4433f50c07debefaed0553bd0068f4f48d449313\maven-artifact-3.8.5.jar because it was already located earlier
+[27Jun2024 02:27:35.231] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\net.jodah\typetools\0.6.3\a01aaa6ddaea9ec07ec4f209487b7a46a526283a\typetools-0.6.3.jar because it was already located earlier
+[27Jun2024 02:27:35.231] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\net.minecrell\terminalconsoleappender\1.2.0\96d02cd3b384ff015a8fef4223bcb4ccf1717c95\terminalconsoleappender-1.2.0.jar because it was already located earlier
+[27Jun2024 02:27:35.231] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\net.fabricmc\sponge-mixin\0.13.4+mixin.0.8.5\8adf0cff1795a169141b9e16ad7b9f6e2527a990\sponge-mixin-0.13.4+mixin.0.8.5.jar because it was already located earlier
+[27Jun2024 02:27:35.231] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\com.mojang\authlib\6.0.54\de8bc95660e1b2fe8793fd427a7a10dcec5b3ea7\authlib-6.0.54.jar because it was already located earlier
+[27Jun2024 02:27:35.231] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.26.0\659feffdd12280201c8aacb8f7be94f9a883c824\commons-compress-1.26.0.jar because it was already located earlier
+[27Jun2024 02:27:35.231] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.14.0\1ed471194b02f2c6cb734a0cd6f6f107c673afae\commons-lang3-3.14.0.jar because it was already located earlier
+[27Jun2024 02:27:35.231] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\com.mojang\logging\1.2.7\24cb95ffb0e3433fd6e844c04e68009e504ca1c0\logging-1.2.7.jar because it was already located earlier
+[27Jun2024 02:27:35.231] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-slf4j2-impl\2.22.1\d7e6693c2606cb7e7335047d7bb96dec52db5665\log4j-slf4j2-impl-2.22.1.jar because it was already located earlier
+[27Jun2024 02:27:35.231] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.22.1\7183a25510a02ad00cc6a95d3b3d2a7d3c5a8dc4\log4j-core-2.22.1.jar because it was already located earlier
+[27Jun2024 02:27:35.231] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.22.1\bea6fede6328fabafd7e68363161a7ea6605abd1\log4j-api-2.22.1.jar because it was already located earlier
+[27Jun2024 02:27:35.234] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/MANIFEST.MF mod of type GAMELIBRARY: C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.3.5\ef3ffcf309dae656517b2f120189b1c9b21737dd\mixinextras-neoforge-0.3.5.jar
+[27Jun2024 02:27:35.236] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.3.5.jar" [locator: userdev mods and services, reader: mod manifest]
+[27Jun2024 02:27:35.236] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\com.github.oshi\oshi-core\6.4.10\b1d8ab82d11d92fd639b56d639f8f46f739dd5fa\oshi-core-6.4.10.jar because it was already located earlier
+[27Jun2024 02:27:35.236] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\com.mojang\datafixerupper\8.0.16\67d4de6d7f95d89bcf5862995fb854ebaec02a34\datafixerupper-8.0.16.jar because it was already located earlier
+[27Jun2024 02:27:35.236] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\com.mojang\text2speech\1.17.9\3cad216e3a7f0c19b4b394388bc9ffc446f13b14\text2speech-1.17.9.jar because it was already located earlier
+[27Jun2024 02:27:35.236] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\2.0.9\7cf2726fdcfbc8610f9a71fb3ed639871f315340\slf4j-api-2.0.9.jar because it was already located earlier
+[27Jun2024 02:27:35.236] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.10.1\b3add478d4382b78ea20b1671390a858002feb6c\gson-2.10.1.jar because it was already located earlier
+[27Jun2024 02:27:35.237] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\com.mojang\patchy\2.2.10\da05971b07cbb379d002cf7eaec6a2048211fefc\patchy-2.2.10.jar because it was already located earlier
+[27Jun2024 02:27:35.237] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\32.1.2-jre\5e64ec7e056456bef3a4bc4c6fdaef71e8ab6318\guava-32.1.2-jre.jar because it was already located earlier
+[27Jun2024 02:27:35.237] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\com.google.guava\failureaccess\1.0.1\1dcf1de382a0bf95a3d8b0849546c88bac1292c9\failureaccess-1.0.1.jar because it was already located earlier
+[27Jun2024 02:27:35.237] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\com.google.guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\b421526c5f297295adef1c886e5246c39d4ac629\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar because it was already located earlier
+[27Jun2024 02:27:35.237] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar because it was already located earlier
+[27Jun2024 02:27:35.237] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.checkerframework\checker-qual\3.33.0\de2b60b62da487644fc11f734e73c8b0b431238f\checker-qual-3.33.0.jar because it was already located earlier
+[27Jun2024 02:27:35.237] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\com.google.errorprone\error_prone_annotations\2.18.0\89b684257096f548fa39a7df9fdaa409d4d4df91\error_prone_annotations-2.18.0.jar because it was already located earlier
+[27Jun2024 02:27:35.237] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\com.google.j2objc\j2objc-annotations\2.8\c85270e307e7b822f1086b93689124b89768e273\j2objc-annotations-2.8.jar because it was already located earlier
+[27Jun2024 02:27:35.237] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.15.1\f11560da189ab563a5c8e351941415430e9304ea\commons-io-2.15.1.jar because it was already located earlier
+[27Jun2024 02:27:35.237] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\5.0.4\4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c\jopt-simple-5.0.4.jar because it was already located earlier
+[27Jun2024 02:27:35.237] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\net.minecraftforge\srgutils\0.4.15\ca408b131759478f164e010fae0d73997e125fb5\srgutils-0.4.15.jar because it was already located earlier
+[27Jun2024 02:27:35.237] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.antlr\antlr4-runtime\4.13.1\17125bae1d965624e265ef49552f6465a2bfa307\antlr4-runtime-4.13.1.jar because it was already located earlier
+[27Jun2024 02:27:35.237] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.jline\jline-reader\3.12.1\4382ab1382c7b6f379377ed5f665dc2f6e1218bc\jline-reader-3.12.1.jar because it was already located earlier
+[27Jun2024 02:27:35.237] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.jline\jline-terminal\3.12.1\c777448314e050d980a6b697c140f3bfe9eb7416\jline-terminal-3.12.1.jar because it was already located earlier
+[27Jun2024 02:27:35.238] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.codehaus.plexus\plexus-utils\3.3.0\cf43b5391de623b36fe066a21127baef82c64022\plexus-utils-3.3.0.jar because it was already located earlier
+[27Jun2024 02:27:35.238] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\com.machinezoo.noexception\noexception\1.7.1\b65330c98e38a1f915fa54a6e5eca496505e3f0a\noexception-1.7.1.jar because it was already located earlier
+[27Jun2024 02:27:35.238] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping G:\GitHub\1.21 Mo Glowstone Lamps\mo-glowstone-lamps-neo\.gradle\repositories\ng_dummy_ng\net\minecraft\client\1.21\client-1.21-client-extra.jar because it was already located earlier
+[27Jun2024 02:27:35.238] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j\73.2\61ad4ef7f9131fcf6d25c34b817f90d6da06c9e9\icu4j-73.2.jar because it was already located earlier
+[27Jun2024 02:27:35.238] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\com.mojang\blocklist\1.0.10\5c685c5ffa94c4cd39496c7184c1d122e515ecef\blocklist-1.0.10.jar because it was already located earlier
+[27Jun2024 02:27:35.238] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\com.mojang\brigadier\1.2.9\73e324f2ee541493a5179abf367237faa782ed21\brigadier-1.2.9.jar because it was already located earlier
+[27Jun2024 02:27:35.238] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.5.13\e5f6cae5ca7ecaac1ec2827a9e2d65ae2869cada\httpclient-4.5.13.jar because it was already located earlier
+[27Jun2024 02:27:35.238] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.16.0\4e3eb3d79888d76b54e28b350915b5dc3919c9de\commons-codec-1.16.0.jar because it was already located earlier
+[27Jun2024 02:27:35.238] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.2\4bfc12adfe4842bf07b657f0369c4cb522955686\commons-logging-1.2.jar because it was already located earlier
+[27Jun2024 02:27:35.238] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\io.netty\netty-handler\4.1.97.Final\abb86c6906bf512bf2b797a41cd7d2e8d3cd7c36\netty-handler-4.1.97.Final.jar because it was already located earlier
+[27Jun2024 02:27:35.238] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec\4.1.97.Final\384ba4d75670befbedb45c4d3b497a93639c206d\netty-codec-4.1.97.Final.jar because it was already located earlier
+[27Jun2024 02:27:35.238] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-classes-epoll\4.1.97.Final\795da37ded759e862457a82d9d92c4d39ce8ecee\netty-transport-classes-epoll-4.1.97.Final.jar because it was already located earlier
+[27Jun2024 02:27:35.238] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-unix-common\4.1.97.Final\d469d84265ab70095b01b40886cabdd433b6e664\netty-transport-native-unix-common-4.1.97.Final.jar because it was already located earlier
+[27Jun2024 02:27:35.238] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport\4.1.97.Final\f37380d23c9bb079bc702910833b2fd532c9abd0\netty-transport-4.1.97.Final.jar because it was already located earlier
+[27Jun2024 02:27:35.238] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\io.netty\netty-buffer\4.1.97.Final\f8f3d8644afa5e6e1a40a3a6aeb9d9aa970ecb4f\netty-buffer-4.1.97.Final.jar because it was already located earlier
+[27Jun2024 02:27:35.238] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\io.netty\netty-resolver\4.1.97.Final\cec8348108dc76c47cf87c669d514be52c922144\netty-resolver-4.1.97.Final.jar because it was already located earlier
+[27Jun2024 02:27:35.239] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\io.netty\netty-common\4.1.97.Final\7cceacaf11df8dc63f23d0fb58e9d4640fc88404\netty-common-4.1.97.Final.jar because it was already located earlier
+[27Jun2024 02:27:35.239] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\it.unimi.dsi\fastutil\8.5.12\c24946d46824bd528054bface3231d2ecb7e95e8\fastutil-8.5.12.jar because it was already located earlier
+[27Jun2024 02:27:35.239] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna-platform\5.14.0\28934d48aed814f11e4c584da55c49fa7032b31b\jna-platform-5.14.0.jar because it was already located earlier
+[27Jun2024 02:27:35.239] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\ca.weblite\java-objc-bridge\1.1\1227f9e0666314f9de41477e3ec277e542ed7f7b\java-objc-bridge-1.1.jar because it was already located earlier
+[27Jun2024 02:27:35.239] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna\5.14.0\67bf3eaea4f0718cb376a181a629e5f88fa1c9dd\jna-5.14.0.jar because it was already located earlier
+[27Jun2024 02:27:35.239] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.4.16\51cf043c87253c9f58b539c9f7e44c8894223850\httpcore-4.4.16.jar because it was already located earlier
+[27Jun2024 02:27:35.239] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.jcraft\jorbis\0.0.17\8872d22b293e8f5d7d56ff92be966e6dc28ebdc6\jorbis-0.0.17.jar because it was already located earlier
+[27Jun2024 02:27:35.239] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.joml\joml\1.10.5\22566d58af70ad3d72308bab63b8339906deb649\joml-1.10.5.jar because it was already located earlier
+[27Jun2024 02:27:35.239] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-freetype\3.3.3\a0db6c84a8becc8ca05f9dbfa985edc348a824c7\lwjgl-freetype-3.3.3.jar because it was already located earlier
+[27Jun2024 02:27:35.245] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-freetype\3.3.3\15a8c1de7f51d07a92eae7ce1222557073a0c0c3\lwjgl-freetype-3.3.3-natives-windows-x86.jar because it was already located earlier
+[27Jun2024 02:27:35.246] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.3\efa1eb78c5ccd840e9f329717109b5e892d72f8e\lwjgl-glfw-3.3.3.jar because it was already located earlier
+[27Jun2024 02:27:35.252] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.3\32334f3fd5270a59bad9939a93115acb6de36dcf\lwjgl-glfw-3.3.3-natives-windows-x86.jar because it was already located earlier
+[27Jun2024 02:27:35.252] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.3\b543467b7ff3c6920539a88ee602d34098628be5\lwjgl-jemalloc-3.3.3.jar because it was already located earlier
+[27Jun2024 02:27:35.252] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.3\426222fc027602a5f21b9c0fe79cde6a4c7a011f\lwjgl-jemalloc-3.3.3-natives-windows.jar because it was already located earlier
+[27Jun2024 02:27:35.260] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.3\daada81ceb5fc0c291fbfdd4433cb8d9423577f2\lwjgl-openal-3.3.3.jar because it was already located earlier
+[27Jun2024 02:27:35.269] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.3\87b8d5050e3adb46bb58fe1cb2669a4a48fce10d\lwjgl-openal-3.3.3-natives-windows-x86.jar because it was already located earlier
+[27Jun2024 02:27:35.269] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.3\2f6b0147078396a58979125a4c947664e98293a\lwjgl-opengl-3.3.3.jar because it was already located earlier
+[27Jun2024 02:27:35.273] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.3\65e956d3735a1abdc82eff4baec1b61174697d4b\lwjgl-opengl-3.3.3-natives-windows-arm64.jar because it was already located earlier
+[27Jun2024 02:27:35.277] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.3\25dd6161988d7e65f71d5065c99902402ee32746\lwjgl-stb-3.3.3.jar because it was already located earlier
+[27Jun2024 02:27:35.277] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.3\1d9facdf6541de114b0f963be33505b7679c78cb\lwjgl-stb-3.3.3-natives-windows.jar because it was already located earlier
+[27Jun2024 02:27:35.286] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.3\82d755ca94b102e9ca77283b9e2dc46d1b15fbe5\lwjgl-tinyfd-3.3.3.jar because it was already located earlier
+[27Jun2024 02:27:35.286] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.3\a6697981b0449a5087c1d546fc08b4f73e8f98c9\lwjgl-tinyfd-3.3.3-natives-windows.jar because it was already located earlier
+[27Jun2024 02:27:35.294] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.3\29589b5f87ed335a6c7e7ee6a5775f81f97ecb84\lwjgl-3.3.3.jar because it was already located earlier
+[27Jun2024 02:27:35.301] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.3\9e670718e050aeaeea0c2d5b907cffb142f2e58f\lwjgl-3.3.3-natives-windows-x86.jar because it was already located earlier
+[27Jun2024 02:27:35.301] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.lz4\lz4-java\1.8.0\4b986a99445e49ea5fbf5d149c4b63f6ed6c6780\lz4-java-1.8.0.jar because it was already located earlier
+[27Jun2024 02:27:35.302] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\24.1.0\7af6a669488450c4a07c2c3254e2151df42d7d04\annotations-24.1.0.jar because it was already located earlier
+[27Jun2024 02:27:35.302] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator userdev mods and services found 5 mods, 0 warnings, 0 errors and skipped 86 candidates
+[27Jun2024 02:27:35.304] [main/DEBUG] [net.neoforged.fml.loading.UniqueModListBuilder/]: Found 2 mods for first modid neoforge, selecting most recent based on version data
+[27Jun2024 02:27:35.305] [main/DEBUG] [net.neoforged.fml.loading.UniqueModListBuilder/]: Selected file neoforge-21.0.0-beta.jar for modid neoforge with version 21.0.0-beta
+[27Jun2024 02:27:35.308] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Successfully Loaded 6 mods. Attempting to load dependencies...
+[27Jun2024 02:27:35.308] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator jarinjar
+[27Jun2024 02:27:35.311] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from neoforge-21.0.0-beta.jar, it does not contain dependency information.
+[27Jun2024 02:27:35.312] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from mixinextras-neoforge-0.3.5.jar, it does not contain dependency information.
+[27Jun2024 02:27:35.312] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from main, it does not contain dependency information.
+[27Jun2024 02:27:35.313] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from ctd-core-258186-5447006.jar, it does not contain dependency information.
+[27Jun2024 02:27:35.313] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from mo-glowstone-253336-5478547.jar, it does not contain dependency information.
+[27Jun2024 02:27:35.394] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/MANIFEST.MF mod of type GAMELIBRARY: 
+[27Jun2024 02:27:35.395] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from mixinextras-neoforge-0.3.5.jar, it does not contain dependency information.
+[27Jun2024 02:27:35.422] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/MANIFEST.MF mod of type GAMELIBRARY: 
+[27Jun2024 02:27:35.424] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: mixinextras-neoforge-0.3.5.jar. Using Mod File: C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.3.5\ef3ffcf309dae656517b2f120189b1c9b21737dd\mixinextras-neoforge-0.3.5.jar
+[27Jun2024 02:27:35.424] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[27Jun2024 02:27:35.427] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file neoforge-21.0.0-beta.jar with {minecraft} mods - versions {1.21}
+[27Jun2024 02:27:35.429] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file G:\GitHub\1.21 Mo Glowstone Lamps\mo-glowstone-lamps-neo\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.0.0-beta\neoforge-21.0.0-beta.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
+[27Jun2024 02:27:35.431] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate G:\GitHub\1.21 Mo Glowstone Lamps\mo-glowstone-lamps-neo\build\resources\main
+[27Jun2024 02:27:35.433] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file main with {moglowstonelamps} mods - versions {1.6.0}
+[27Jun2024 02:27:35.433] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file G:\GitHub\1.21 Mo Glowstone Lamps\mo-glowstone-lamps-neo\build\resources\main with languages [LanguageSpec[languageName=javafml, acceptedVersions=[4,)]]
+[27Jun2024 02:27:35.433] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\curse.maven\ctd-core-258186\5447006\f2fde9f1589bae8d8f4dae2a6a7e2f460f21ec23\ctd-core-258186-5447006.jar
+[27Jun2024 02:27:35.434] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file ctd-core-258186-5447006.jar with {ctdcore} mods - versions {2.6.1}
+[27Jun2024 02:27:35.434] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\curse.maven\ctd-core-258186\5447006\f2fde9f1589bae8d8f4dae2a6a7e2f460f21ec23\ctd-core-258186-5447006.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[4,)]]
+[27Jun2024 02:27:35.434] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\curse.maven\mo-glowstone-253336\5478547\34883e9fbb2320a2f726d1174c411fd8191836e9\mo-glowstone-253336-5478547.jar
+[27Jun2024 02:27:35.435] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file mo-glowstone-253336-5478547.jar with {moglowstone} mods - versions {2.6.1}
+[27Jun2024 02:27:35.435] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\curse.maven\mo-glowstone-253336\5478547\34883e9fbb2320a2f726d1174c411fd8191836e9\mo-glowstone-253336-5478547.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[4,)]]
+[27Jun2024 02:27:35.436] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate G:\GitHub\1.21 Mo Glowstone Lamps\mo-glowstone-lamps-neo\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.0.0-beta\neoforge-21.0.0-beta.jar
+[27Jun2024 02:27:35.436] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file neoforge-21.0.0-beta.jar with {neoforge} mods - versions {21.0.0-beta}
+[27Jun2024 02:27:35.437] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file G:\GitHub\1.21 Mo Glowstone Lamps\mo-glowstone-lamps-neo\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.0.0-beta\neoforge-21.0.0-beta.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[3,]]]
+[27Jun2024 02:27:35.440] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_method with Javascript path coremods/field_to_method.js
+[27Jun2024 02:27:35.440] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_instanceof with Javascript path coremods/field_to_instanceof.js
+[27Jun2024 02:27:35.440] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod add_bouncer_method with Javascript path coremods/add_bouncer_method.js
+[27Jun2024 02:27:35.440] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod method_redirector with Javascript path coremods/method_redirector.js
+[27Jun2024 02:27:35.440] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Ryan\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.3.5\ef3ffcf309dae656517b2f120189b1c9b21737dd\mixinextras-neoforge-0.3.5.jar with languages []
+[27Jun2024 02:27:35.441] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModValidator/SCAN]: Found 6 mod files with 5 mods
+[27Jun2024 02:27:35.441] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[27Jun2024 02:27:35.447] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 3 implementations of IModLanguageLoader:
+[27Jun2024 02:27:35.448] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.fml.javafmlmod.FMLJavaModLanguageProvider from loader-4.0.1.jar
+[27Jun2024 02:27:35.448] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.fml.lowcodemod.LowCodeModLanguageProvider from loader-4.0.1.jar
+[27Jun2024 02:27:35.448] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.fml.mclanguageprovider.MinecraftModLanguageProvider from loader-4.0.1.jar
+[27Jun2024 02:27:35.448] [main/DEBUG] [net.neoforged.fml.loading.LanguageProviderLoader/CORE]: Found language provider javafml, version 4.0.1
+[27Jun2024 02:27:35.449] [main/DEBUG] [net.neoforged.fml.loading.LanguageProviderLoader/CORE]: Found language provider lowcodefml, version 4.0.1
+[27Jun2024 02:27:35.449] [main/DEBUG] [net.neoforged.fml.loading.LanguageProviderLoader/CORE]: Found language provider minecraft, version 4.0.1
+[27Jun2024 02:27:35.454] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Configured system mods: [minecraft, neoforge]
+[27Jun2024 02:27:35.454] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Found system mod: minecraft
+[27Jun2024 02:27:35.454] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Found system mod: neoforge
+[27Jun2024 02:27:35.457] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/LOADING]: Found 3 mod requirements (3 mandatory, 0 optional)
+[27Jun2024 02:27:35.458] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/LOADING]: Found 0 mod requirements missing (0 mandatory, 0 optional)
+[27Jun2024 02:27:35.475] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/SCAN]: Adding Access Transformer in G:\GitHub\1.21 Mo Glowstone Lamps\mo-glowstone-lamps-neo\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.0.0-beta\neoforge-21.0.0-beta.jar
+[27Jun2024 02:27:35.482] [main/DEBUG] [AXFORM/AXFORM]: Loading access transformer accesstransformer.cfg
+[27Jun2024 02:27:35.619] [main/DEBUG] [AXFORM/AXFORM]: Loaded access transformer accesstransformer.cfg
+[27Jun2024 02:27:35.628] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[27Jun2024 02:27:35.631] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin
+[27Jun2024 02:27:35.632] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin
+[27Jun2024 02:27:35.632] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin-synthetic-package
+[27Jun2024 02:27:35.632] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin-synthetic-package
+[27Jun2024 02:27:35.632] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[27Jun2024 02:27:35.633] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/LOADING]: Loading coremod transformers
+[27Jun2024 02:27:35.634] [main/INFO] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Loading coremod script-engine for [neoforge]
+[27Jun2024 02:27:35.639] [main/DEBUG] [net.neoforged.fml.loading.CoreModScriptLoader/CORE]: Loading coremod scripts
+[27Jun2024 02:27:35.972] [main/DEBUG] [net.neoforged.coremod.CoreModScriptingEngine/COREMOD]: Loading CoreMod from coremods/field_to_method.js
+[27Jun2024 02:27:36.138] [main/DEBUG] [net.neoforged.coremod.CoreModScriptingEngine/COREMOD]: CoreMod loaded successfully
+[27Jun2024 02:27:36.139] [main/DEBUG] [net.neoforged.coremod.CoreModScriptingEngine/COREMOD]: Loading CoreMod from coremods/field_to_instanceof.js
+[27Jun2024 02:27:36.199] [main/DEBUG] [net.neoforged.coremod.CoreModScriptingEngine/COREMOD]: CoreMod loaded successfully
+[27Jun2024 02:27:36.199] [main/DEBUG] [net.neoforged.coremod.CoreModScriptingEngine/COREMOD]: Loading CoreMod from coremods/add_bouncer_method.js
+[27Jun2024 02:27:36.237] [main/DEBUG] [net.neoforged.coremod.CoreModScriptingEngine/COREMOD]: CoreMod loaded successfully
+[27Jun2024 02:27:36.237] [main/DEBUG] [net.neoforged.coremod.CoreModScriptingEngine/COREMOD]: Loading CoreMod from coremods/method_redirector.js
+[27Jun2024 02:27:36.290] [main/DEBUG] [net.neoforged.coremod.CoreModScriptingEngine/COREMOD]: CoreMod loaded successfully
+[27Jun2024 02:27:36.298] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 0 implementations of ICoreMod:
+[27Jun2024 02:27:36.301] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@9c73fff to Target : cpw.mods.modlauncher.api.TargetType@407cf41 {Lnet/minecraft/world/level/biome/Biome;} {} {V}
+[27Jun2024 02:27:36.302] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@2abbd0d9 to Target : cpw.mods.modlauncher.api.TargetType@407cf41 {Lnet/minecraft/world/level/levelgen/structure/Structure;} {} {V}
+[27Jun2024 02:27:36.302] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@b61edb9 to Target : cpw.mods.modlauncher.api.TargetType@407cf41 {Lnet/minecraft/world/level/block/FlowerPotBlock;} {} {V}
+[27Jun2024 02:27:36.302] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@5d3ff859 to Target : cpw.mods.modlauncher.api.TargetType@407cf41 {Lnet/minecraft/network/play/client/CClientSettingsPacket;} {} {V}
+[27Jun2024 02:27:36.302] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@32bb0072 to Target : cpw.mods.modlauncher.api.TargetType@407cf41 {Lnet/minecraft/world/level/levelgen/PhantomSpawner;} {} {V}
+[27Jun2024 02:27:36.302] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@32bb0072 to Target : cpw.mods.modlauncher.api.TargetType@407cf41 {Lnet/minecraft/server/commands/SummonCommand;} {} {V}
+[27Jun2024 02:27:36.302] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@32bb0072 to Target : cpw.mods.modlauncher.api.TargetType@407cf41 {Lnet/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$WoodlandMansionPiece;} {} {V}
+[27Jun2024 02:27:36.303] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@32bb0072 to Target : cpw.mods.modlauncher.api.TargetType@407cf41 {Lnet/minecraft/world/entity/ai/village/VillageSiege;} {} {V}
+[27Jun2024 02:27:36.303] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@32bb0072 to Target : cpw.mods.modlauncher.api.TargetType@407cf41 {Lnet/minecraft/world/entity/npc/CatSpawner;} {} {V}
+[27Jun2024 02:27:36.303] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@32bb0072 to Target : cpw.mods.modlauncher.api.TargetType@407cf41 {Lnet/minecraft/world/entity/EntityType;} {} {V}
+[27Jun2024 02:27:36.303] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@32bb0072 to Target : cpw.mods.modlauncher.api.TargetType@407cf41 {Lnet/minecraft/world/entity/monster/Spider;} {} {V}
+[27Jun2024 02:27:36.303] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@32bb0072 to Target : cpw.mods.modlauncher.api.TargetType@407cf41 {Lnet/minecraft/world/level/NaturalSpawner;} {} {V}
+[27Jun2024 02:27:36.303] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@32bb0072 to Target : cpw.mods.modlauncher.api.TargetType@407cf41 {Lnet/minecraft/world/entity/monster/Zombie;} {} {V}
+[27Jun2024 02:27:36.303] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@32bb0072 to Target : cpw.mods.modlauncher.api.TargetType@407cf41 {Lnet/minecraft/world/entity/raid/Raid;} {} {V}
+[27Jun2024 02:27:36.303] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@32bb0072 to Target : cpw.mods.modlauncher.api.TargetType@407cf41 {Lnet/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal;} {} {V}
+[27Jun2024 02:27:36.303] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@32bb0072 to Target : cpw.mods.modlauncher.api.TargetType@407cf41 {Lnet/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPiece;} {} {V}
+[27Jun2024 02:27:36.303] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@32bb0072 to Target : cpw.mods.modlauncher.api.TargetType@407cf41 {Lnet/minecraft/world/entity/animal/frog/Tadpole;} {} {V}
+[27Jun2024 02:27:36.303] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@32bb0072 to Target : cpw.mods.modlauncher.api.TargetType@407cf41 {Lnet/minecraft/server/commands/RaidCommand;} {} {V}
+[27Jun2024 02:27:36.303] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@32bb0072 to Target : cpw.mods.modlauncher.api.TargetType@407cf41 {Lnet/minecraft/world/entity/animal/horse/SkeletonTrapGoal;} {} {V}
+[27Jun2024 02:27:36.303] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@32bb0072 to Target : cpw.mods.modlauncher.api.TargetType@407cf41 {Lnet/minecraft/world/entity/monster/ZombieVillager;} {} {V}
+[27Jun2024 02:27:36.303] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@32bb0072 to Target : cpw.mods.modlauncher.api.TargetType@407cf41 {Lnet/minecraft/world/entity/monster/Strider;} {} {V}
+[27Jun2024 02:27:36.303] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@32bb0072 to Target : cpw.mods.modlauncher.api.TargetType@407cf41 {Lnet/minecraft/world/entity/npc/Villager;} {} {V}
+[27Jun2024 02:27:36.303] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@32bb0072 to Target : cpw.mods.modlauncher.api.TargetType@407cf41 {Lnet/minecraft/world/level/levelgen/structure/structures/OceanRuinPieces$OceanRuinPiece;} {} {V}
+[27Jun2024 02:27:36.303] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@32bb0072 to Target : cpw.mods.modlauncher.api.TargetType@407cf41 {Lnet/minecraft/world/level/levelgen/PatrolSpawner;} {} {V}
+[27Jun2024 02:27:36.303] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@32bb0072 to Target : cpw.mods.modlauncher.api.TargetType@407cf41 {Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate;} {} {V}
+[27Jun2024 02:27:36.303] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@32bb0072 to Target : cpw.mods.modlauncher.api.TargetType@407cf41 {Lnet/minecraft/world/level/levelgen/structure/structures/SwampHutPiece;} {} {V}
+[27Jun2024 02:27:36.304] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[27Jun2024 02:27:36.400] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[27Jun2024 02:27:36.400] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[27Jun2024 02:27:36.400] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(mixinsynthetic)
+[27Jun2024 02:27:36.400] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(mixinsynthetic)
+[27Jun2024 02:27:36.400] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(mixinsynthetic)
+[27Jun2024 02:27:36.400] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(mixinsynthetic)
+[27Jun2024 02:27:36.400] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(mixinsynthetic)
+[27Jun2024 02:27:36.400] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixinsynthetic)]
+[27Jun2024 02:27:36.401] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(minecraft)
+[27Jun2024 02:27:36.401] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(minecraft)
+[27Jun2024 02:27:36.401] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(minecraft)
+[27Jun2024 02:27:36.401] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(minecraft)
+[27Jun2024 02:27:36.401] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(minecraft)
+[27Jun2024 02:27:36.401] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[27Jun2024 02:27:36.401] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(ctdcore)
+[27Jun2024 02:27:36.401] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(ctdcore)
+[27Jun2024 02:27:36.401] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(ctdcore)
+[27Jun2024 02:27:36.401] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(ctdcore)
+[27Jun2024 02:27:36.401] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(ctdcore)
+[27Jun2024 02:27:36.401] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(ctdcore)]
+[27Jun2024 02:27:36.401] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(moglowstone)
+[27Jun2024 02:27:36.401] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(moglowstone)
+[27Jun2024 02:27:36.401] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(moglowstone)
+[27Jun2024 02:27:36.401] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(moglowstone)
+[27Jun2024 02:27:36.401] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(moglowstone)
+[27Jun2024 02:27:36.401] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(moglowstone)]
+[27Jun2024 02:27:36.401] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(moglowstonelamps)
+[27Jun2024 02:27:36.401] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(moglowstonelamps)
+[27Jun2024 02:27:36.401] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(moglowstonelamps)
+[27Jun2024 02:27:36.402] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(moglowstonelamps)
+[27Jun2024 02:27:36.402] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(moglowstonelamps)
+[27Jun2024 02:27:36.402] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(moglowstonelamps)]
+[27Jun2024 02:27:36.402] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(mixinextras.neoforge)
+[27Jun2024 02:27:36.402] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(mixinextras.neoforge)
+[27Jun2024 02:27:36.402] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(mixinextras.neoforge)
+[27Jun2024 02:27:36.402] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(mixinextras.neoforge)
+[27Jun2024 02:27:36.402] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(mixinextras.neoforge)
+[27Jun2024 02:27:36.402] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixinextras.neoforge)]
+[27Jun2024 02:27:36.402] [main/DEBUG] [mixin/]: Registering mixin config: mixinextras.init.mixins.json
+[27Jun2024 02:27:36.438] [main/DEBUG] [mixin/]: inject() running with 7 agents
+[27Jun2024 02:27:36.439] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[27Jun2024 02:27:36.439] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixinsynthetic)]
+[27Jun2024 02:27:36.439] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[27Jun2024 02:27:36.439] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(ctdcore)]
+[27Jun2024 02:27:36.439] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(moglowstone)]
+[27Jun2024 02:27:36.439] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(moglowstonelamps)]
+[27Jun2024 02:27:36.439] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixinextras.neoforge)]
+[27Jun2024 02:27:36.439] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, 21.0.0-beta, --gameDir, ., --assetsDir, C:\Users\Ryan\.gradle\caches\minecraft\assets\1.21, --assetIndex, asset-index]
+[27Jun2024 02:27:36.470] [main/DEBUG] [mixin/]: Error cleaning class output directory: .mixin.out
+[27Jun2024 02:27:36.474] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[27Jun2024 02:27:36.474] [main/DEBUG] [mixin/]: Selecting config mixinextras.init.mixins.json
+[27Jun2024 02:27:36.512] [main/DEBUG] [MixinExtras|Service/]: com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5) is taking over from null
+[27Jun2024 02:27:36.544] [main/DEBUG] [mixin/]: Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
+[27Jun2024 02:27:36.545] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
+[27Jun2024 02:27:36.546] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
+[27Jun2024 02:27:36.547] [main/DEBUG] [mixin/]: Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
+[27Jun2024 02:27:36.548] [main/DEBUG] [mixin/]: Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
+[27Jun2024 02:27:36.549] [main/DEBUG] [mixin/]: Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
+[27Jun2024 02:27:36.563] [main/DEBUG] [mixin/]: Preparing mixinextras.init.mixins.json (0)
+[27Jun2024 02:27:36.565] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/gui/screens/LoadingOverlay @Lnet/neoforged/api/distmarker/OnlyIn;
+[27Jun2024 02:27:36.568] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/gui/screens/Overlay @Lnet/neoforged/api/distmarker/OnlyIn;
+[27Jun2024 02:27:36.568] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/gui/components/Renderable @Lnet/neoforged/api/distmarker/OnlyIn;
+[27Jun2024 02:27:36.569] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/renderer/texture/AbstractTexture @Lnet/neoforged/api/distmarker/OnlyIn;
+[27Jun2024 02:27:36.570] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/gui/screens/LoadingOverlay$LogoTexture @Lnet/neoforged/api/distmarker/OnlyIn;
+[27Jun2024 02:27:36.571] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/renderer/texture/SimpleTexture @Lnet/neoforged/api/distmarker/OnlyIn;
+[27Jun2024 02:27:36.573] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: com/mojang/blaze3d/vertex/VertexConsumer @Lnet/neoforged/api/distmarker/OnlyIn;
+[27Jun2024 02:27:36.576] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/gui/GuiGraphics @Lnet/neoforged/api/distmarker/OnlyIn;
+[27Jun2024 02:27:36.589] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.client.Minecraft FIELD textureManager to access PUBLIC and LEAVE
+[27Jun2024 02:27:36.590] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/Minecraft @Lnet/neoforged/api/distmarker/OnlyIn;
+[27Jun2024 02:27:36.601] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: com/mojang/blaze3d/platform/WindowEventHandler @Lnet/neoforged/api/distmarker/OnlyIn;
+[27Jun2024 02:27:36.604] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.util.thread.BlockableEventLoop METHOD submitAsync(Ljava/lang/Runnable;)Ljava/util/concurrent/CompletableFuture; to access PUBLIC and LEAVE
+[27Jun2024 02:27:36.864] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory/]: Using SLF4J as the default logging framework
+[27Jun2024 02:27:36.867] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
+[27Jun2024 02:27:36.867] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
+[27Jun2024 02:27:37.479] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@45545e7a
+[27Jun2024 02:27:37.847] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 406 milliseconds
+[27Jun2024 02:27:37.863] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@45545e7a
+[27Jun2024 02:27:37.929] [main/WARN] [oshi.driver.windows.perfmon.PerfmonDisabled/]: Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+[27Jun2024 02:27:38.422] [pool-9-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/FlowerPotBlock
+[27Jun2024 02:27:38.472] [pool-9-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/EntityType
+[27Jun2024 02:27:39.155] [pool-9-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/biome/Biome
+[27Jun2024 02:27:39.623] [pool-9-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/animal/frog/Tadpole
+[27Jun2024 02:27:40.238] [pool-9-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: -Dio.netty.noUnsafe: false
+[27Jun2024 02:27:40.239] [pool-9-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: Java version: 21
+[27Jun2024 02:27:40.239] [pool-9-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.theUnsafe: available
+[27Jun2024 02:27:40.239] [pool-9-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.copyMemory: available
+[27Jun2024 02:27:40.240] [pool-9-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.storeFence: available
+[27Jun2024 02:27:40.240] [pool-9-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Buffer.address: available
+[27Jun2024 02:27:40.241] [pool-9-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Bits.unaligned: available, true
+[27Jun2024 02:27:40.242] [pool-9-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+[27Jun2024 02:27:40.242] [pool-9-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: sun.misc.Unsafe: available
+[27Jun2024 02:27:40.242] [pool-9-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: maxDirectMemory: 8568963072 bytes (maybe)
+[27Jun2024 02:27:40.242] [pool-9-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.tmpdir: C:\Users\Ryan\AppData\Local\Temp (java.io.tmpdir)
+[27Jun2024 02:27:40.243] [pool-9-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[27Jun2024 02:27:40.243] [pool-9-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: Platform: Windows
+[27Jun2024 02:27:40.243] [pool-9-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.maxDirectMemory: -1 bytes
+[27Jun2024 02:27:40.243] [pool-9-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[27Jun2024 02:27:40.245] [pool-9-thread-1/DEBUG] [io.netty.util.internal.CleanerJava9/]: java.nio.ByteBuffer.cleaner(): available
+[27Jun2024 02:27:40.245] [pool-9-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.noPreferDirect: false
+[27Jun2024 02:27:40.479] [pool-9-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Spider
+[27Jun2024 02:27:40.519] [pool-9-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Zombie
+[27Jun2024 02:27:40.539] [pool-9-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/ZombieVillager
+[27Jun2024 02:27:40.579] [pool-9-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal
+[27Jun2024 02:27:40.670] [pool-9-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/animal/horse/SkeletonTrapGoal
+[27Jun2024 02:27:40.685] [pool-9-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Strider
+[27Jun2024 02:27:40.712] [pool-9-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/npc/Villager
+[27Jun2024 02:27:41.506] [pool-9-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/Structure
+[27Jun2024 02:27:41.529] [pool-9-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/OceanRuinPieces$OceanRuinPiece
+[27Jun2024 02:27:41.535] [pool-9-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/SwampHutPiece
+[27Jun2024 02:27:41.541] [pool-9-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPiece
+[27Jun2024 02:27:41.553] [pool-9-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$WoodlandMansionPiece
+[27Jun2024 02:27:41.856] [pool-9-thread-1/DEBUG] [net.neoforged.neoforge.registries.GameData/REGISTRIES]: Creating vanilla freeze snapshot
+[27Jun2024 02:27:41.881] [pool-9-thread-1/DEBUG] [net.neoforged.neoforge.registries.GameData/REGISTRIES]: Vanilla freeze snapshot created
+[27Jun2024 02:27:42.284] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/server/commands/SummonCommand
+[27Jun2024 02:27:42.349] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/server/commands/RaidCommand
+[27Jun2024 02:27:42.394] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[27Jun2024 02:27:42.395] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[27Jun2024 02:27:42.397] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[27Jun2024 02:27:42.398] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[27Jun2024 02:27:42.399] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[27Jun2024 02:27:42.505] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/G:/GitHub/1.21%20Mo%20Glowstone%20Lamps/mo-glowstone-lamps-neo/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.0.0-beta/neoforge-21.0.0-beta.jar%23192!/assets/.mcassetsroot' uses unexpected schema
+[27Jun2024 02:27:42.506] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/G:/GitHub/1.21%20Mo%20Glowstone%20Lamps/mo-glowstone-lamps-neo/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.0.0-beta/neoforge-21.0.0-beta.jar%23192!/data/.mcassetsroot' uses unexpected schema
+[27Jun2024 02:27:42.527] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[27Jun2024 02:27:42.535] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[27Jun2024 02:27:42.594] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[27Jun2024 02:27:42.756] [Render thread/DEBUG] [net.neoforged.fml.ModWorkManager/LOADING]: Using 16 threads for parallel mod-loading
+[27Jun2024 02:27:42.766] [Render thread/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for [com.themastergeneral.ctdcore.CTDCore]
+[27Jun2024 02:27:42.768] [Render thread/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for [com.themastergeneral.moglowstone.MoGlowstone]
+[27Jun2024 02:27:42.769] [Render thread/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for [com.themastergeneral.moglowstonelamps.MoGlowstoneLamps]
+[27Jun2024 02:27:42.770] [Render thread/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for [net.neoforged.neoforge.common.NeoForgeMod, net.neoforged.neoforge.client.ClientNeoForgeMod]
+[27Jun2024 02:27:42.783] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for ctdcore
+[27Jun2024 02:27:42.789] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.internal.versions.neoforge.NeoForgeVersion/CORE]: Found NeoForge version 21.0.0-beta
+[27Jun2024 02:27:42.790] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.internal.versions.neoforge.NeoForgeVersion/CORE]: Found FML version 4.0.1
+[27Jun2024 02:27:42.790] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.0.0-beta, for MC 1.21
+[27Jun2024 02:27:42.795] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for moglowstone
+[27Jun2024 02:27:42.802] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for moglowstonelamps
+[27Jun2024 02:27:42.805] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-client.toml for neoforge tracking
+[27Jun2024 02:27:42.805] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-server.toml for neoforge tracking
+[27Jun2024 02:27:42.805] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-common.toml for neoforge tracking
+[27Jun2024 02:27:42.843] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for neoforge
+[27Jun2024 02:27:42.845] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.server.command.ConfigCommand to GAME
+[27Jun2024 02:27:42.846] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.network.filters.GenericPacketSplitter to MOD
+[27Jun2024 02:27:42.862] [modloading-worker-0/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkAccessible: true
+[27Jun2024 02:27:42.862] [modloading-worker-0/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkBounds: true
+[27Jun2024 02:27:42.862] [modloading-worker-0/DEBUG] [io.netty.util.ResourceLeakDetectorFactory/]: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@42409e87
+[27Jun2024 02:27:42.867] [modloading-worker-0/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[27Jun2024 02:27:42.867] [modloading-worker-0/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[27Jun2024 02:27:42.869] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numHeapArenas: 32
+[27Jun2024 02:27:42.869] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numDirectArenas: 32
+[27Jun2024 02:27:42.869] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.pageSize: 8192
+[27Jun2024 02:27:42.869] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxOrder: 9
+[27Jun2024 02:27:42.869] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.chunkSize: 4194304
+[27Jun2024 02:27:42.870] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.smallCacheSize: 256
+[27Jun2024 02:27:42.870] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.normalCacheSize: 64
+[27Jun2024 02:27:42.870] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[27Jun2024 02:27:42.870] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimInterval: 8192
+[27Jun2024 02:27:42.870] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[27Jun2024 02:27:42.870] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.useCacheForAllThreads: false
+[27Jun2024 02:27:42.870] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[27Jun2024 02:27:42.878] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.allocator.type: pooled
+[27Jun2024 02:27:42.878] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.threadLocalDirectBufferSize: 0
+[27Jun2024 02:27:42.878] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[27Jun2024 02:27:42.883] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.network.NetworkInitialization to MOD
+[27Jun2024 02:27:42.884] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.network.ConfigurationInitialization to MOD
+[27Jun2024 02:27:42.886] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.common.MonsterRoomHooks to GAME
+[27Jun2024 02:27:42.887] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.common.DeferredSpawnEggItem$CommonHandler to MOD
+[27Jun2024 02:27:42.887] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.common.DeferredSpawnEggItem$ColorRegisterHandler to MOD
+[27Jun2024 02:27:42.888] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.client.model.data.ModelDataManager to GAME
+[27Jun2024 02:27:42.889] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.client.ParticleBoundsDebugRenderer to GAME
+[27Jun2024 02:27:42.891] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.client.ClientHooks$ClientEvents to MOD
+[27Jun2024 02:27:42.893] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.client.BlockEntityRenderBoundsDebugRenderer to GAME
+[27Jun2024 02:27:42.894] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.attachment.AttachmentInternals to GAME
+[27Jun2024 02:27:42.903] [modloading-sync-worker/DEBUG] [net.neoforged.neoforge.registries.GameData/REGISTRIES]: Unfreezing registries
+[27Jun2024 02:27:42.994] [modloading-sync-worker/DEBUG] [net.neoforged.neoforge.registries.GameData/REGISTRIES]: Freezing registries
+[27Jun2024 02:27:43.015] [modloading-sync-worker/DEBUG] [net.neoforged.neoforge.registries.GameData/REGISTRIES]: All registries frozen
+[27Jun2024 02:27:43.368] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: []
+[27Jun2024 02:27:43.476] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/ctdcore, mod/moglowstone, mod/moglowstonelamps, mod/neoforge
+[27Jun2024 02:27:43.561] [Render thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loading configs type CLIENT
+[27Jun2024 02:27:43.562] [Worker-Main-13/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
+[27Jun2024 02:27:43.567] [Render thread/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for G:\GitHub\1.21 Mo Glowstone Lamps\mo-glowstone-lamps-neo\runs\client\config\neoforge-client.toml
+[27Jun2024 02:27:43.573] [Render thread/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file G:\GitHub\1.21 Mo Glowstone Lamps\mo-glowstone-lamps-neo\runs\client\config\neoforge-client.toml
+[27Jun2024 02:27:43.596] [Render thread/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file G:\GitHub\1.21 Mo Glowstone Lamps\mo-glowstone-lamps-neo\runs\client\config\neoforge-client.toml for changes
+[27Jun2024 02:27:43.601] [Render thread/WARN] [net.neoforged.neoforge.common.ModConfigSpec/CORE]: Configuration file G:\GitHub\1.21 Mo Glowstone Lamps\mo-glowstone-lamps-neo\runs\client\config\neoforge-client.toml is not correct. Correcting
+[27Jun2024 02:27:43.606] [Render thread/WARN] [net.neoforged.neoforge.common.ModConfigSpec/CORE]: Incorrect key client was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27Jun2024 02:27:43.606] [Render thread/WARN] [net.neoforged.neoforge.common.ModConfigSpec/CORE]: Incorrect key client.experimentalForgeLightPipelineEnabled was corrected from null to its default, false. 
+[27Jun2024 02:27:43.606] [Render thread/DEBUG] [net.neoforged.neoforge.common.ModConfigSpec/CORE]: The comment on key client.experimentalForgeLightPipelineEnabled does not match the spec. This may create a backup.
+[27Jun2024 02:27:43.606] [Render thread/WARN] [net.neoforged.neoforge.common.ModConfigSpec/CORE]: Incorrect key client.showLoadWarnings was corrected from null to its default, true. 
+[27Jun2024 02:27:43.607] [Render thread/DEBUG] [net.neoforged.neoforge.common.ModConfigSpec/CORE]: The comment on key client.showLoadWarnings does not match the spec. This may create a backup.
+[27Jun2024 02:27:43.607] [Render thread/WARN] [net.neoforged.neoforge.common.ModConfigSpec/CORE]: Incorrect key client.useCombinedDepthStencilAttachment was corrected from null to its default, false. 
+[27Jun2024 02:27:43.607] [Render thread/DEBUG] [net.neoforged.neoforge.common.ModConfigSpec/CORE]: The comment on key client.useCombinedDepthStencilAttachment does not match the spec. This may create a backup.
+[27Jun2024 02:27:43.607] [Render thread/DEBUG] [net.neoforged.neoforge.common.ModConfigSpec/CORE]: The comment on key client does not match the spec. This may create a backup.
+[27Jun2024 02:27:43.629] [Thread-4/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Config file neoforge-client.toml changed, sending notifies
+[27Jun2024 02:27:43.634] [Thread-4/DEBUG] [net.neoforged.neoforge.common.NeoForgeConfig/FORGEMOD]: NeoForge config just got changed on the file system!
+[27Jun2024 02:27:43.634] [Render thread/DEBUG] [net.neoforged.neoforge.common.NeoForgeConfig/FORGEMOD]: Loaded NeoForge config file neoforge-client.toml
+[27Jun2024 02:27:43.635] [Thread-4/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Config file neoforge-client.toml changed, sending notifies
+[27Jun2024 02:27:43.635] [Thread-4/DEBUG] [net.neoforged.neoforge.common.NeoForgeConfig/FORGEMOD]: NeoForge config just got changed on the file system!
+[27Jun2024 02:27:43.635] [Thread-4/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Config file neoforge-client.toml changed, sending notifies
+[27Jun2024 02:27:43.635] [Thread-4/DEBUG] [net.neoforged.neoforge.common.NeoForgeConfig/FORGEMOD]: NeoForge config just got changed on the file system!
+[27Jun2024 02:27:43.636] [Thread-4/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Config file neoforge-client.toml changed, sending notifies
+[27Jun2024 02:27:43.636] [Thread-4/DEBUG] [net.neoforged.neoforge.common.NeoForgeConfig/FORGEMOD]: NeoForge config just got changed on the file system!
+[27Jun2024 02:27:43.639] [Render thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
+[27Jun2024 02:27:43.639] [Render thread/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for G:\GitHub\1.21 Mo Glowstone Lamps\mo-glowstone-lamps-neo\runs\client\config\neoforge-common.toml
+[27Jun2024 02:27:43.643] [Render thread/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file G:\GitHub\1.21 Mo Glowstone Lamps\mo-glowstone-lamps-neo\runs\client\config\neoforge-common.toml
+[27Jun2024 02:27:43.643] [Render thread/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file G:\GitHub\1.21 Mo Glowstone Lamps\mo-glowstone-lamps-neo\runs\client\config\neoforge-common.toml for changes
+[27Jun2024 02:27:43.643] [Render thread/WARN] [net.neoforged.neoforge.common.ModConfigSpec/CORE]: Configuration file G:\GitHub\1.21 Mo Glowstone Lamps\mo-glowstone-lamps-neo\runs\client\config\neoforge-common.toml is not correct. Correcting
+[27Jun2024 02:27:43.645] [Worker-Main-4/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
+[27Jun2024 02:27:43.646] [Render thread/WARN] [net.neoforged.neoforge.common.ModConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[27Jun2024 02:27:43.646] [Render thread/WARN] [net.neoforged.neoforge.common.ModConfigSpec/CORE]: Incorrect key general.logUntranslatedItemTagWarnings was corrected from null to its default, SILENCED. 
+[27Jun2024 02:27:43.647] [Render thread/DEBUG] [net.neoforged.neoforge.common.ModConfigSpec/CORE]: The comment on key general.logUntranslatedItemTagWarnings does not match the spec. This may create a backup.
+[27Jun2024 02:27:43.647] [Render thread/WARN] [net.neoforged.neoforge.common.ModConfigSpec/CORE]: Incorrect key general.logLegacyTagWarnings was corrected from null to its default, DEV_SHORT. 
+[27Jun2024 02:27:43.647] [Render thread/DEBUG] [net.neoforged.neoforge.common.ModConfigSpec/CORE]: The comment on key general.logLegacyTagWarnings does not match the spec. This may create a backup.
+[27Jun2024 02:27:43.647] [Render thread/DEBUG] [net.neoforged.neoforge.common.ModConfigSpec/CORE]: The comment on key general does not match the spec. This may create a backup.
+[27Jun2024 02:27:43.652] [Thread-4/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Config file neoforge-common.toml changed, sending notifies
+[27Jun2024 02:27:43.652] [Thread-4/DEBUG] [net.neoforged.neoforge.common.NeoForgeConfig/FORGEMOD]: NeoForge config just got changed on the file system!
+[27Jun2024 02:27:43.652] [Thread-4/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Config file neoforge-common.toml changed, sending notifies
+[27Jun2024 02:27:43.652] [Thread-4/DEBUG] [net.neoforged.neoforge.common.NeoForgeConfig/FORGEMOD]: NeoForge config just got changed on the file system!
+[27Jun2024 02:27:43.655] [Render thread/DEBUG] [net.neoforged.neoforge.common.NeoForgeConfig/FORGEMOD]: Loaded NeoForge config file neoforge-common.toml
+[27Jun2024 02:27:43.656] [Thread-4/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Config file neoforge-common.toml changed, sending notifies
+[27Jun2024 02:27:43.656] [Thread-4/DEBUG] [net.neoforged.neoforge.common.NeoForgeConfig/FORGEMOD]: NeoForge config just got changed on the file system!
+[27Jun2024 02:27:43.656] [Thread-4/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Config file neoforge-common.toml changed, sending notifies
+[27Jun2024 02:27:43.656] [Thread-4/DEBUG] [net.neoforged.neoforge.common.NeoForgeConfig/FORGEMOD]: NeoForge config just got changed on the file system!
+[27Jun2024 02:27:43.671] [Worker-Main-15/INFO] [com.themastergeneral.ctdcore.CTDCore/]: CTD Core for is launching for neoforge v21.0.0-beta
+[27Jun2024 02:27:43.672] [Worker-Main-15/INFO] [com.themastergeneral.moglowstone.MoGlowstone/]: Mo' Glowstone for Minecraft NeoForge 21.0.0-beta is launching.
+[27Jun2024 02:27:43.672] [Worker-Main-15/INFO] [com.themastergeneral.moglowstonelamps.MoGlowstoneLamps/]: Mo' Glowstone Lamps is launching.
+[27Jun2024 02:27:43.795] [Render thread/DEBUG] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work for work queue Common setup: 1 jobs
+[27Jun2024 02:27:43.799] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [ctdcore] Starting version check at https://raw.githubusercontent.com/MasterGeneral156/Version/master/ctd-core-nf.json
+[27Jun2024 02:27:43.800] [Render thread/DEBUG] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 3.416 ms
+[27Jun2024 02:27:44.378] [Forge Version Check/DEBUG] [net.neoforged.fml.VersionChecker/]: [ctdcore] Received version check data:
+{
+	"homepage": "https://minecraft.curseforge.com/projects/ctd-core",
+	"1.21":
+	{
+		"2.6.1": "Removed deprecated functions, added new functions to existing classes, modernized DurabilityItem clas",
+		"2.6.0": "Updated to Minecraft v1.21"
+	},
+	"1.20.4":
+	{
+		"2.5.2": "Added functions for detecting the current mod loader and version",
+		"2.5.1": "Fixed the update URL link",
+		"2.5.0": "Ported and released for Neoforge!!"
+	},
+	"promos": 
+	{
+		"1.21-latest": "2.6.0",
+		"1.21-recommended": "2.6.0",
+		"1.20.4-latest": "2.5.2",
+		"1.20.4-recommended": "2.5.2",
+		"1.20.6-latest": "2.5.2",
+		"1.20.6-recommended": "2.5.2"
+	}
+}
+[27Jun2024 02:27:44.380] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [ctdcore] Found status: AHEAD Current: 2.6.1 Target: null
+[27Jun2024 02:27:44.384] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [moglowstone] Starting version check at https://raw.githubusercontent.com/MasterGeneral156/Version/master/mo-glowstone-nf.json
+[27Jun2024 02:27:44.543] [Forge Version Check/DEBUG] [net.neoforged.fml.VersionChecker/]: [moglowstone] Received version check data:
+{
+	"homepage": "https://minecraft.curseforge.com/projects/mo-glowstone",
+	"1.21":
+	{
+		"2.6.1": "Start up crash fix",
+		"2.6.0": "Updated to Minecraft v1.21"
+	},
+	"1.20.4":
+	{
+		"2.5.0": "Now on Neoforge!"
+	},
+	"promos": 
+	{
+		"1.21-latest": "2.6.1",
+		"1.21-recommended": "2.6.1",
+		"1.20.4-latest": "2.5.0",
+		"1.20.4-recommended": "2.5.0",
+	}
+}
+[27Jun2024 02:27:44.544] [Forge Version Check/WARN] [net.neoforged.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Expected name at line 18 column 3 path $..1.20.4-recommended
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1241) ~[gson-2.10.1.jar%23108!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1137) ~[gson-2.10.1.jar%23108!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1047) ~[gson-2.10.1.jar%23108!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:982) ~[gson-2.10.1.jar%23108!/:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.1/net.neoforged.fml.VersionChecker$1.process(VersionChecker.java:167) ~[loader-4.0.1.jar%23145!/:4.0]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.1/net.neoforged.fml.VersionChecker$1.run(VersionChecker.java:105) [loader-4.0.1.jar%23145!/:4.0]
+Caused by: com.google.gson.stream.MalformedJsonException: Expected name at line 18 column 3 path $..1.20.4-recommended
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1659) ~[gson-2.10.1.jar%23108!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.stream.JsonReader.doPeek(JsonReader.java:514) ~[gson-2.10.1.jar%23108!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.stream.JsonReader.hasNext(JsonReader.java:422) ~[gson-2.10.1.jar%23108!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.internal.bind.ObjectTypeAdapter.read(ObjectTypeAdapter.java:122) ~[gson-2.10.1.jar%23108!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.1.jar%23108!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:186) ~[gson-2.10.1.jar%23108!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.1.jar%23108!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1227) ~[gson-2.10.1.jar%23108!/:?]
+	... 6 more
+[27Jun2024 02:27:44.546] [Forge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [moglowstonelamps] Starting version check at https://raw.githubusercontent.com/MasterGeneral156/Version/master/mo-glowstone-lamps-nf.json
+[27Jun2024 02:27:44.711] [Forge Version Check/DEBUG] [net.neoforged.fml.VersionChecker/]: [moglowstonelamps] Received version check data:
+{
+	"homepage": "https://www.curseforge.com/minecraft/mc-mods/mo-glowstone-lamps",
+	"1.20.4": 
+	{
+		"1.5.0": "Ported to Neoforge!"
+	}
+	"promos": 
+	{
+		"1.20.4-latest": "1.5.0",
+		"1.20.4-recommended": "1.5.0",
+	}
+}
+[27Jun2024 02:27:44.712] [Forge Version Check/WARN] [net.neoforged.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Unterminated object at line 7 column 3 path $.
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1241) ~[gson-2.10.1.jar%23108!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1137) ~[gson-2.10.1.jar%23108!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1047) ~[gson-2.10.1.jar%23108!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:982) ~[gson-2.10.1.jar%23108!/:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.1/net.neoforged.fml.VersionChecker$1.process(VersionChecker.java:167) ~[loader-4.0.1.jar%23145!/:4.0]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.1/net.neoforged.fml.VersionChecker$1.run(VersionChecker.java:105) [loader-4.0.1.jar%23145!/:4.0]
+Caused by: com.google.gson.stream.MalformedJsonException: Unterminated object at line 7 column 3 path $.
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1659) ~[gson-2.10.1.jar%23108!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.stream.JsonReader.doPeek(JsonReader.java:500) ~[gson-2.10.1.jar%23108!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.stream.JsonReader.hasNext(JsonReader.java:422) ~[gson-2.10.1.jar%23108!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:183) ~[gson-2.10.1.jar%23108!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.1.jar%23108!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1227) ~[gson-2.10.1.jar%23108!/:?]
+	... 6 more
+[27Jun2024 02:27:44.834] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[27Jun2024 02:27:44.834] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[27Jun2024 02:27:44.887] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speakers (High Definition Audio Device)
+[27Jun2024 02:27:44.887] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[27Jun2024 02:27:44.978] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[27Jun2024 02:27:44.988] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[27Jun2024 02:27:44.989] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[27Jun2024 02:27:44.989] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[27Jun2024 02:27:44.992] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[27Jun2024 02:27:45.005] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[27Jun2024 02:27:45.005] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[27Jun2024 02:27:45.005] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[27Jun2024 02:27:45.006] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[27Jun2024 02:27:45.213] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[27Jun2024 02:27:45.214] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[27Jun2024 02:27:45.215] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[27Jun2024 02:27:45.215] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[27Jun2024 02:27:45.216] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[27Jun2024 02:27:45.256] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[27Jun2024 02:28:02.691] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
