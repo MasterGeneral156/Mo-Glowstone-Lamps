@@ -1,0 +1,6 @@
+{
+    "parent": "moglowstonelamps:block/purple_lamp",
+    "textures": {
+        "inventory": "moglowstonelamps:block/purple_lamp"
+    }
+}

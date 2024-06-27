@@ -1,0 +1,6 @@
+{
+    "parent": "moglowstonelamps:block/orange_lamp",
+    "textures": {
+        "inventory": "moglowstonelamps:block/orange_lamp"
+    }
+}

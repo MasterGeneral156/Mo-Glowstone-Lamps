@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "moglowstonelamp",
+    "pattern": [
+        "GGG",
+        "GDG",
+		"GGG"
+    ],
+    "key": {
+		"G": {"tag": "moglowstone:glowstone_lamp"},
+		"D": {"tag": "forge:dyes/lime"}
+    },
+    "result": {
+        "item": "moglowstonelamps:lime_lamp",
+		"count": 8
+    }
+}
