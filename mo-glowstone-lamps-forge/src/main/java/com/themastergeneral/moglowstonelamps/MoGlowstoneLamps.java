@@ -51,17 +51,17 @@ public class MoGlowstoneLamps {
 
 	public static final String MODID = "moglowstonelamps";
 
-	public MoGlowstoneLamps() {
+	public MoGlowstoneLamps(FMLJavaModLoadingContext context) {
 		instance = this;
         // Register the setup method for modloading
-		IEventBus modbus = FMLJavaModLoadingContext.get().getModEventBus();
+		IEventBus modbus = context.getModEventBus();
 		
 		modbus.addListener(this::setup);
 
         // Register ourselves for server, registry and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
-        ItemRegistry.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
-        BlockRegistry.BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        ItemRegistry.ITEMS.register(modbus);
+        BlockRegistry.BLOCKS.register(modbus);
         
         modbus.addListener(this::fillTab);
     }
