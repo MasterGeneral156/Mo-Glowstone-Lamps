@@ -31,7 +31,6 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import com.themastergeneral.moglowstone.TabRegistry;
-import com.themastergeneral.moglowstonelamps.items.ModItems;
 
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
@@ -69,21 +68,21 @@ public class MoGlowstoneLamps {
 	{
 		if (ev.getTab() == TabRegistry.MOGLOWSTONE_TAB.get())
 		{
-			ev.accept(ModItems.black_lamp);
-			ev.accept(ModItems.blue_lamp);
-			ev.accept(ModItems.brown_lamp);
-			ev.accept(ModItems.cyan_lamp);
-			ev.accept(ModItems.gray_lamp);
-			ev.accept(ModItems.green_lamp);
-			ev.accept(ModItems.light_blue_lamp);
-			ev.accept(ModItems.light_gray_lamp);
-			ev.accept(ModItems.lime_lamp);
-			ev.accept(ModItems.magenta_lamp);
-			ev.accept(ModItems.orange_lamp);
-			ev.accept(ModItems.pink_lamp);
-			ev.accept(ModItems.purple_lamp);
-			ev.accept(ModItems.red_lamp);
-			ev.accept(ModItems.white_lamp);
+			ev.accept(ItemRegistry.black_lamp);
+			ev.accept(ItemRegistry.blue_lamp);
+			ev.accept(ItemRegistry.brown_lamp);
+			ev.accept(ItemRegistry.cyan_lamp);
+			ev.accept(ItemRegistry.gray_lamp);
+			ev.accept(ItemRegistry.green_lamp);
+			ev.accept(ItemRegistry.light_blue_lamp);
+			ev.accept(ItemRegistry.light_gray_lamp);
+			ev.accept(ItemRegistry.lime_lamp);
+			ev.accept(ItemRegistry.magenta_lamp);
+			ev.accept(ItemRegistry.orange_lamp);
+			ev.accept(ItemRegistry.pink_lamp);
+			ev.accept(ItemRegistry.purple_lamp);
+			ev.accept(ItemRegistry.red_lamp);
+			ev.accept(ItemRegistry.white_lamp);
 		}
 	}
 }

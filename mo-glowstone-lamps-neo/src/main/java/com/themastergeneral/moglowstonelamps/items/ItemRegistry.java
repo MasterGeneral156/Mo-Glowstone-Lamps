@@ -27,10 +27,11 @@
 */
 package com.themastergeneral.moglowstonelamps.items;
 
-import java.util.function.Supplier;
-
 import com.themastergeneral.moglowstonelamps.MoGlowstoneLamps;
 
+import com.themastergeneral.moglowstonelamps.blocks.BlockRegistry;
+import net.minecraft.world.item.BlockItem;
+import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredRegister.Items;
 
@@ -38,20 +39,20 @@ public class ItemRegistry {
 	public static final Items ITEMS = DeferredRegister.createItems(MoGlowstoneLamps.MODID);
 	
 	//Block items
-	public static final Supplier<LampBlockItem> black_lamp = ITEMS.register("black_lamp", () -> ModItems.black_lamp);
-	public static final Supplier<LampBlockItem> blue_lamp = ITEMS.register("blue_lamp", () -> ModItems.blue_lamp);
-	public static final Supplier<LampBlockItem> brown_lamp = ITEMS.register("brown_lamp", () -> ModItems.brown_lamp);
-	public static final Supplier<LampBlockItem> cyan_lamp = ITEMS.register("cyan_lamp", () -> ModItems.cyan_lamp);
-	public static final Supplier<LampBlockItem> gray_lamp = ITEMS.register("gray_lamp", () -> ModItems.gray_lamp);
-	public static final Supplier<LampBlockItem> green_lamp = ITEMS.register("green_lamp", () -> ModItems.green_lamp);
-	public static final Supplier<LampBlockItem> light_blue_lamp = ITEMS.register("light_blue_lamp", () -> ModItems.light_blue_lamp);
-	public static final Supplier<LampBlockItem> light_gray_lamp = ITEMS.register("light_gray_lamp", () -> ModItems.light_gray_lamp);
-	public static final Supplier<LampBlockItem> lime_lamp = ITEMS.register("lime_lamp", () -> ModItems.lime_lamp);
-	public static final Supplier<LampBlockItem> magenta_lamp = ITEMS.register("magenta_lamp", () -> ModItems.magenta_lamp);
-	public static final Supplier<LampBlockItem> orange_lamp = ITEMS.register("orange_lamp", () -> ModItems.orange_lamp);
-	public static final Supplier<LampBlockItem> purple_lamp = ITEMS.register("purple_lamp", () -> ModItems.purple_lamp);
-	public static final Supplier<LampBlockItem> pink_lamp = ITEMS.register("pink_lamp", () -> ModItems.pink_lamp);
-	public static final Supplier<LampBlockItem> red_lamp = ITEMS.register("red_lamp", () -> ModItems.red_lamp);
-	public static final Supplier<LampBlockItem> white_lamp = ITEMS.register("white_lamp", () -> ModItems.white_lamp);
+	public static final DeferredItem<BlockItem> black_lamp = ITEMS.registerSimpleBlockItem("black_lamp", BlockRegistry.BLACK_LAMP);
+	public static final DeferredItem<BlockItem> blue_lamp = ITEMS.registerSimpleBlockItem("blue_lamp", BlockRegistry.BLUE_LAMP);
+	public static final DeferredItem<BlockItem> brown_lamp = ITEMS.registerSimpleBlockItem("brown_lamp", BlockRegistry.BROWN_LAMP);
+	public static final DeferredItem<BlockItem> cyan_lamp = ITEMS.registerSimpleBlockItem("cyan_lamp",  BlockRegistry.CYAN_LAMP);
+	public static final DeferredItem<BlockItem> gray_lamp = ITEMS.registerSimpleBlockItem("gray_lamp", BlockRegistry.GRAY_LAMP);
+	public static final DeferredItem<BlockItem> green_lamp = ITEMS.registerSimpleBlockItem("green_lamp", BlockRegistry.GREEN_LAMP);
+	public static final DeferredItem<BlockItem> light_blue_lamp = ITEMS.registerSimpleBlockItem("light_blue_lamp", BlockRegistry.LIGHT_BLUE_LAMP);
+	public static final DeferredItem<BlockItem> light_gray_lamp = ITEMS.registerSimpleBlockItem("light_gray_lamp", BlockRegistry.LIGHT_GRAY_LAMP);
+	public static final DeferredItem<BlockItem> lime_lamp = ITEMS.registerSimpleBlockItem("lime_lamp", BlockRegistry.LIME_LAMP);
+	public static final DeferredItem<BlockItem> magenta_lamp = ITEMS.registerSimpleBlockItem("magenta_lamp", BlockRegistry.MAGENTA_LAMP);
+	public static final DeferredItem<BlockItem> orange_lamp = ITEMS.registerSimpleBlockItem("orange_lamp",  BlockRegistry.ORANGE_LAMP);
+	public static final DeferredItem<BlockItem> purple_lamp = ITEMS.registerSimpleBlockItem("purple_lamp", BlockRegistry.PURPLE_LAMP);
+	public static final DeferredItem<BlockItem> pink_lamp = ITEMS.registerSimpleBlockItem("pink_lamp", BlockRegistry.PINK_LAMP);
+	public static final DeferredItem<BlockItem> red_lamp = ITEMS.registerSimpleBlockItem("red_lamp", BlockRegistry.RED_LAMP);
+	public static final DeferredItem<BlockItem> white_lamp = ITEMS.registerSimpleBlockItem("white_lamp",  BlockRegistry.WHITE_LAMP);
 
 }

@@ -27,30 +27,106 @@
 */
 package com.themastergeneral.moglowstonelamps.blocks;
 
-import java.util.function.Supplier;
-
-import com.themastergeneral.moglowstone.blocks.GSBlock;
 import com.themastergeneral.moglowstonelamps.MoGlowstoneLamps;
 
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.material.MapColor;
+import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 public class BlockRegistry {
 	public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(MoGlowstoneLamps.MODID);
 	
 	//Mod Blocks
-	public static final Supplier<GSBlock> black_lamp = BLOCKS.register("black_lamp", () -> ModBlocks.black_lamp);
-	public static final Supplier<GSBlock> blue_lamp = BLOCKS.register("blue_lamp", () -> ModBlocks.blue_lamp);
-	public static final Supplier<GSBlock> brown_lamp = BLOCKS.register("brown_lamp", () -> ModBlocks.brown_lamp);
-	public static final Supplier<GSBlock> cyan_lamp = BLOCKS.register("cyan_lamp", () -> ModBlocks.cyan_lamp);
-	public static final Supplier<GSBlock> gray_lamp = BLOCKS.register("gray_lamp", () -> ModBlocks.gray_lamp);
-	public static final Supplier<GSBlock> green_lamp = BLOCKS.register("green_lamp", () -> ModBlocks.green_lamp);
-	public static final Supplier<GSBlock> light_blue_lamp = BLOCKS.register("light_blue_lamp", () -> ModBlocks.light_blue_lamp);
-	public static final Supplier<GSBlock> light_gray_lamp = BLOCKS.register("light_gray_lamp", () -> ModBlocks.light_gray_lamp);
-	public static final Supplier<GSBlock> lime_lamp = BLOCKS.register("lime_lamp", () -> ModBlocks.lime_lamp);
-	public static final Supplier<GSBlock> magenta_lamp = BLOCKS.register("magenta_lamp", () -> ModBlocks.magenta_lamp);
-	public static final Supplier<GSBlock> orange_lamp = BLOCKS.register("orange_lamp", () -> ModBlocks.orange_lamp);
-	public static final Supplier<GSBlock> pink_lamp = BLOCKS.register("pink_lamp", () -> ModBlocks.pink_lamp);
-	public static final Supplier<GSBlock> purple_lamp = BLOCKS.register("purple_lamp", () -> ModBlocks.purple_lamp);
-	public static final Supplier<GSBlock> red_lamp = BLOCKS.register("red_lamp", () -> ModBlocks.red_lamp);
-	public static final Supplier<GSBlock> white_lamp = BLOCKS.register("white_lamp", () -> ModBlocks.white_lamp);
+	public static final DeferredBlock<Block> BLACK_LAMP = BLOCKS.registerSimpleBlock(
+			"black_lamp",
+			BlockBehaviour.Properties.of()
+					.mapColor(MapColor.COLOR_BLACK)
+					.lightLevel(state -> 15)
+	);
+	public static final DeferredBlock<Block> BLUE_LAMP = BLOCKS.registerSimpleBlock(
+			"blue_lamp",
+			BlockBehaviour.Properties.of()
+					.mapColor(MapColor.COLOR_BLUE)
+					.lightLevel(state -> 15)
+	);
+	public static final DeferredBlock<Block> BROWN_LAMP = BLOCKS.registerSimpleBlock(
+			"brown_lamp",
+			BlockBehaviour.Properties.of()
+					.mapColor(MapColor.COLOR_BROWN)
+					.lightLevel(state -> 15)
+	);
+	public static final DeferredBlock<Block> CYAN_LAMP = BLOCKS.registerSimpleBlock(
+			"cyan_lamp",
+			BlockBehaviour.Properties.of()
+					.mapColor(MapColor.COLOR_CYAN)
+					.lightLevel(state -> 15)
+	);
+	public static final DeferredBlock<Block> GRAY_LAMP = BLOCKS.registerSimpleBlock(
+			"gray_lamp",
+			BlockBehaviour.Properties.of()
+					.mapColor(MapColor.COLOR_GRAY)
+					.lightLevel(state -> 15)
+	);
+	public static final DeferredBlock<Block> GREEN_LAMP = BLOCKS.registerSimpleBlock(
+			"green_lamp",
+			BlockBehaviour.Properties.of()
+					.mapColor(MapColor.COLOR_GREEN)
+					.lightLevel(state -> 15)
+	);
+	public static final DeferredBlock<Block> LIGHT_BLUE_LAMP = BLOCKS.registerSimpleBlock(
+			"light_blue_lamp",
+			BlockBehaviour.Properties.of()
+					.mapColor(MapColor.COLOR_LIGHT_BLUE)
+					.lightLevel(state -> 15)
+	);
+	public static final DeferredBlock<Block> LIGHT_GRAY_LAMP = BLOCKS.registerSimpleBlock(
+			"light_gray_lamp",
+			BlockBehaviour.Properties.of()
+					.mapColor(MapColor.COLOR_LIGHT_GRAY)
+					.lightLevel(state -> 15)
+	);
+	public static final DeferredBlock<Block> LIME_LAMP = BLOCKS.registerSimpleBlock(
+			"lime_lamp",
+			BlockBehaviour.Properties.of()
+					.mapColor(MapColor.COLOR_LIGHT_GREEN)
+					.lightLevel(state -> 15)
+	);
+	public static final DeferredBlock<Block> MAGENTA_LAMP = BLOCKS.registerSimpleBlock(
+			"magenta_lamp",
+			BlockBehaviour.Properties.of()
+					.mapColor(MapColor.COLOR_MAGENTA)
+					.lightLevel(state -> 15)
+	);
+	public static final DeferredBlock<Block> ORANGE_LAMP = BLOCKS.registerSimpleBlock(
+			"orange_lamp",
+			BlockBehaviour.Properties.of()
+					.mapColor(MapColor.COLOR_ORANGE)
+					.lightLevel(state -> 15)
+	);
+	public static final DeferredBlock<Block> PINK_LAMP = BLOCKS.registerSimpleBlock(
+			"pink_lamp",
+			BlockBehaviour.Properties.of()
+					.mapColor(MapColor.COLOR_PINK)
+					.lightLevel(state -> 15)
+	);
+	public static final DeferredBlock<Block> PURPLE_LAMP = BLOCKS.registerSimpleBlock(
+			"purple_lamp",
+			BlockBehaviour.Properties.of()
+					.mapColor(MapColor.COLOR_PURPLE)
+					.lightLevel(state -> 15)
+	);
+	public static final DeferredBlock<Block> RED_LAMP = BLOCKS.registerSimpleBlock(
+			"red_lamp",
+			BlockBehaviour.Properties.of()
+					.mapColor(MapColor.COLOR_RED)
+					.lightLevel(state -> 15)
+	);
+	public static final DeferredBlock<Block> WHITE_LAMP = BLOCKS.registerSimpleBlock(
+			"white_lamp",
+			BlockBehaviour.Properties.of()
+					.mapColor(MapColor.TERRACOTTA_WHITE)
+					.lightLevel(state -> 15)
+	);
 }
