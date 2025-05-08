@@ -6,8 +6,8 @@
 		"GGG"
     ],
     "key": {
-		"G": {"tag": "moglowstone:glowstone_lamp"},
-		"D": {"tag": "forge:dyes/white"}
+		"G": "#moglowstone:glowstone_lamp",
+		"D": "#forge:dyes/white"
     },
     "result": {
         "id": "moglowstonelamps:white_lamp",
