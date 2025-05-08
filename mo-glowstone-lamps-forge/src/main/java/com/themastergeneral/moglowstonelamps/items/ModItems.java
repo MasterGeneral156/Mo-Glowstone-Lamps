@@ -1,11 +1,11 @@
-/*
-	Project:	Mo' Glowstone Lamps 1.20
+/**
+	Project:	Mo' Glowstone Lamps 1.21
 	File:		com.themastergeneral.moglowstonelamps.items.ModItems
 	Author:		TheMasterGeneral
 	Website: 	https://github.com/MasterGeneral156/Mo-Glowstone-Lamps
 	License:	MIT License
 
-				Copyright (c) 2024 MasterGeneral156
+				Copyright (c) 2025 MasterGeneral156
 				
 				Permission is hereby granted, free of charge, to any person obtaining a copy
 				of this software and associated documentation files (the "Software"), to deal
@@ -27,22 +27,23 @@
 */
 package com.themastergeneral.moglowstonelamps.items;
 
+import com.themastergeneral.moglowstone.blocks.BlockRegistry;
 import com.themastergeneral.moglowstonelamps.blocks.ModBlocks;
 
 public class ModItems {
-	public static LampBlockItem black_lamp = new LampBlockItem(ModBlocks.black_lamp);
-	public static LampBlockItem blue_lamp = new LampBlockItem(ModBlocks.blue_lamp);
-	public static LampBlockItem brown_lamp = new LampBlockItem(ModBlocks.brown_lamp);
-	public static LampBlockItem cyan_lamp = new LampBlockItem(ModBlocks.cyan_lamp);
-	public static LampBlockItem gray_lamp = new LampBlockItem(ModBlocks.gray_lamp);
-	public static LampBlockItem green_lamp = new LampBlockItem(ModBlocks.green_lamp);
-	public static LampBlockItem light_blue_lamp = new LampBlockItem(ModBlocks.light_blue_lamp);
-	public static LampBlockItem light_gray_lamp = new LampBlockItem(ModBlocks.light_gray_lamp);
-	public static LampBlockItem lime_lamp = new LampBlockItem(ModBlocks.lime_lamp);
-	public static LampBlockItem magenta_lamp = new LampBlockItem(ModBlocks.magenta_lamp);
-	public static LampBlockItem purple_lamp = new LampBlockItem(ModBlocks.purple_lamp);
-	public static LampBlockItem pink_lamp = new LampBlockItem(ModBlocks.pink_lamp);
-	public static LampBlockItem orange_lamp = new LampBlockItem(ModBlocks.orange_lamp);
-	public static LampBlockItem red_lamp = new LampBlockItem(ModBlocks.red_lamp);
-	public static LampBlockItem white_lamp = new LampBlockItem(ModBlocks.white_lamp);
+	public static LampBlockItem black_lamp = new LampBlockItem(ItemRegistry.ITEMS.key("black_lamp"),ModBlocks.black_lamp);
+	public static LampBlockItem blue_lamp = new LampBlockItem(ItemRegistry.ITEMS.key("blue_lamp"),ModBlocks.blue_lamp);
+	public static LampBlockItem brown_lamp = new LampBlockItem(ItemRegistry.ITEMS.key("brown_lamp"),ModBlocks.brown_lamp);
+	public static LampBlockItem cyan_lamp = new LampBlockItem(ItemRegistry.ITEMS.key("cyan_lamp"),ModBlocks.cyan_lamp);
+	public static LampBlockItem gray_lamp = new LampBlockItem(ItemRegistry.ITEMS.key("gray_lamp"),ModBlocks.gray_lamp);
+	public static LampBlockItem green_lamp = new LampBlockItem(ItemRegistry.ITEMS.key("green_lamp"),ModBlocks.green_lamp);
+	public static LampBlockItem light_blue_lamp = new LampBlockItem(ItemRegistry.ITEMS.key("light_blue_lamp"),ModBlocks.light_blue_lamp);
+	public static LampBlockItem light_gray_lamp = new LampBlockItem(ItemRegistry.ITEMS.key("light_gray_lamp"),ModBlocks.light_gray_lamp);
+	public static LampBlockItem lime_lamp = new LampBlockItem(ItemRegistry.ITEMS.key("lime_lamp"),ModBlocks.lime_lamp);
+	public static LampBlockItem magenta_lamp = new LampBlockItem(ItemRegistry.ITEMS.key("magenta_lamp"),ModBlocks.magenta_lamp);
+	public static LampBlockItem purple_lamp = new LampBlockItem(ItemRegistry.ITEMS.key("purple_lamp"),ModBlocks.purple_lamp);
+	public static LampBlockItem pink_lamp = new LampBlockItem(ItemRegistry.ITEMS.key("pink_lamp"),ModBlocks.pink_lamp);
+	public static LampBlockItem orange_lamp = new LampBlockItem(ItemRegistry.ITEMS.key("orange_lamp"),ModBlocks.orange_lamp);
+	public static LampBlockItem red_lamp = new LampBlockItem(ItemRegistry.ITEMS.key("red_lamp"),ModBlocks.red_lamp);
+	public static LampBlockItem white_lamp = new LampBlockItem(ItemRegistry.ITEMS.key("white_lamp"),ModBlocks.white_lamp);
 }

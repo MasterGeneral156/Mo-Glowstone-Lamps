@@ -27,24 +27,25 @@
 */
 package com.themastergeneral.moglowstonelamps.blocks;
 
+import com.themastergeneral.moglowstone.blocks.BlockRegistry;
 import com.themastergeneral.moglowstone.blocks.GSBlock;
 
 import net.minecraft.world.level.material.MapColor;
 
 public class ModBlocks {
-	public static GSBlock black_lamp = new GSBlock(MapColor.COLOR_BLACK);
-	public static GSBlock blue_lamp = new GSBlock(MapColor.COLOR_BLUE);
-	public static GSBlock brown_lamp = new GSBlock(MapColor.COLOR_BROWN);
-	public static GSBlock cyan_lamp = new GSBlock(MapColor.COLOR_CYAN);
-	public static GSBlock gray_lamp = new GSBlock(MapColor.COLOR_GRAY);
-	public static GSBlock green_lamp = new GSBlock(MapColor.COLOR_GREEN);
-	public static GSBlock light_blue_lamp = new GSBlock(MapColor.COLOR_LIGHT_BLUE);
-	public static GSBlock light_gray_lamp = new GSBlock(MapColor.COLOR_LIGHT_GRAY);
-	public static GSBlock lime_lamp = new GSBlock(MapColor.COLOR_LIGHT_GREEN);
-	public static GSBlock magenta_lamp = new GSBlock(MapColor.COLOR_MAGENTA);
-	public static GSBlock orange_lamp = new GSBlock(MapColor.COLOR_ORANGE);
-	public static GSBlock pink_lamp = new GSBlock(MapColor.COLOR_PINK);
-	public static GSBlock purple_lamp = new GSBlock(MapColor.COLOR_PURPLE);
-	public static GSBlock red_lamp = new GSBlock(MapColor.COLOR_RED);
-	public static GSBlock white_lamp = new GSBlock(MapColor.SNOW);	//wtf also no standard white?
+	public static GSBlock black_lamp = new GSBlock(BlockRegistry.BLOCKS.key("black_lamp"), MapColor.COLOR_BLACK);
+	public static GSBlock blue_lamp = new GSBlock(BlockRegistry.BLOCKS.key("blue_lamp"),MapColor.COLOR_BLUE);
+	public static GSBlock brown_lamp = new GSBlock(BlockRegistry.BLOCKS.key("brown_lamp"),MapColor.COLOR_BROWN);
+	public static GSBlock cyan_lamp = new GSBlock(BlockRegistry.BLOCKS.key("cyan_lamp"),MapColor.COLOR_CYAN);
+	public static GSBlock gray_lamp = new GSBlock(BlockRegistry.BLOCKS.key("gray_lamp"),MapColor.COLOR_GRAY);
+	public static GSBlock green_lamp = new GSBlock(BlockRegistry.BLOCKS.key("green_lamp"),MapColor.COLOR_GREEN);
+	public static GSBlock light_blue_lamp = new GSBlock(BlockRegistry.BLOCKS.key("light_blue_lamp"),MapColor.COLOR_LIGHT_BLUE);
+	public static GSBlock light_gray_lamp = new GSBlock(BlockRegistry.BLOCKS.key("light_gray_lamp"),MapColor.COLOR_LIGHT_GRAY);
+	public static GSBlock lime_lamp = new GSBlock(BlockRegistry.BLOCKS.key("lime_lamp"),MapColor.COLOR_LIGHT_GREEN);
+	public static GSBlock magenta_lamp = new GSBlock(BlockRegistry.BLOCKS.key("magenta_lamp"),MapColor.COLOR_MAGENTA);
+	public static GSBlock orange_lamp = new GSBlock(BlockRegistry.BLOCKS.key("orange_lamp"),MapColor.COLOR_ORANGE);
+	public static GSBlock pink_lamp = new GSBlock(BlockRegistry.BLOCKS.key("pink_lamp"),MapColor.COLOR_PINK);
+	public static GSBlock purple_lamp = new GSBlock(BlockRegistry.BLOCKS.key("purple_lamp"),MapColor.COLOR_PURPLE);
+	public static GSBlock red_lamp = new GSBlock(BlockRegistry.BLOCKS.key("red_lamp"),MapColor.COLOR_RED);
+	public static GSBlock white_lamp = new GSBlock(BlockRegistry.BLOCKS.key("white_lamp"),MapColor.SNOW);	//wtf also no standard white?
 }
