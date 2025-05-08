@@ -110,21 +110,13 @@ sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
 	maven {
-		name = "MasterGeneral156 LAN"
-		url = "http://192.168.1.30/maven/"
-		allowInsecureProtocol = true
-	}
-	maven {
 		name = "MasterGeneral156"
-		url = "https://chivalryengine.com/maven/"
+		url = "https://maven.chivalryengine.com"
 	}
 }
 
 dependencies {
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
-    
-    // Hack fix for now, force jopt-simple to be exactly 5.0.4 because Mojang ships that version, but some transitive dependencies request 6.0+ 
-    implementation('net.sf.jopt-simple:jopt-simple:5.0.4') { version { strictly '5.0.4' } }
 	implementation("com.themastergeneral:ctd-core:${project.property('ctd_core_ver')}")
 	implementation("com.themastergeneral:mo-glowstone:${project.property('mo_glowstone_ver')}")
 }
@@ -179,6 +171,10 @@ publishing {
 tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation
 }
+
+// IntelliJ no longer downloads javadocs and sources by default.
+// This tells Gradle to force IDEA to do it.
+idea.module { downloadJavadoc = downloadSources = true }
 
 eclipse {
     // Run everytime eclipse builds the code
