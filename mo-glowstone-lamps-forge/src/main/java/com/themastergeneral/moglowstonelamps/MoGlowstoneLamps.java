@@ -37,7 +37,6 @@ import com.themastergeneral.moglowstonelamps.items.ItemRegistry;
 
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
-import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -53,16 +52,15 @@ public class MoGlowstoneLamps {
 	public MoGlowstoneLamps(FMLJavaModLoadingContext context) {
 		instance = this;
         // Register the setup method for modloading
-		IEventBus modbus = context.getModEventBus();
-		
-		modbus.addListener(this::setup);
+		var modBusGroup = context.getModBusGroup();
+
+		FMLCommonSetupEvent.getBus(modBusGroup).addListener(this::setup);
 
         // Register ourselves for server, registry and other game events we are interested in
-        MinecraftForge.EVENT_BUS.register(this);
-        ItemRegistry.ITEMS.register(modbus);
-        BlockRegistry.BLOCKS.register(modbus);
-        
-        modbus.addListener(this::fillTab);
+        ItemRegistry.ITEMS.register(modBusGroup);
+        BlockRegistry.BLOCKS.register(modBusGroup);
+
+		BuildCreativeModeTabContentsEvent.getBus(modBusGroup).addListener(this::fillTab);
     }
 	
 	private void setup(final FMLCommonSetupEvent event)
