@@ -16,7 +16,7 @@ description='''${mod_description}'''
 [[dependencies.${mod_id}]] #optional
     modId="ctdcore" #mandatory
     mandatory=true
-    versionRange="${ctd_core_ver_range}"
+    versionRange="${ctd_core_ver},"
     ordering="AFTER"
     side="BOTH"
 	
