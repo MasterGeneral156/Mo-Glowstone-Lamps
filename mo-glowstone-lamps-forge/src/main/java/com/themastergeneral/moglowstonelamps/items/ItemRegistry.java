@@ -53,5 +53,6 @@ public class ItemRegistry {
 	public static final RegistryObject<Item> pink_lamp = ITEMS.register("pink_lamp", () -> ModItems.pink_lamp);
 	public static final RegistryObject<Item> red_lamp = ITEMS.register("red_lamp", () -> ModItems.red_lamp);
 	public static final RegistryObject<Item> white_lamp = ITEMS.register("white_lamp", () -> ModItems.white_lamp);
+	public static final RegistryObject<Item> yellow_lamp = ITEMS.register("yellow_lamp", () -> ModItems.yellow_lamp);
 
 }

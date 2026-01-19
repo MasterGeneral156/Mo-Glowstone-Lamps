@@ -10,7 +10,7 @@
 		"D": {"tag": "forge:dyes/yellow"}
     },
     "result": {
-        "id": "moglowstone:lamp_gsblock",
+        "id": "moglowstonelamps:yellow_lamp",
 		"count": 8
     }
 }

@@ -90,6 +90,7 @@ public class MoGlowstoneLamps {
 			ev.accept(ModItems.purple_lamp);
 			ev.accept(ModItems.red_lamp);
 			ev.accept(ModItems.white_lamp);
+			ev.accept(ModItems.yellow_lamp);
 		}
 	}
 }

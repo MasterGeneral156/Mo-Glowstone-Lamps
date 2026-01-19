@@ -46,5 +46,6 @@ public class ModBlocks {
 	public static GSBlock pink_lamp = new GSBlock(MapColor.COLOR_PINK);
 	public static GSBlock purple_lamp = new GSBlock(MapColor.COLOR_PURPLE);
 	public static GSBlock red_lamp = new GSBlock(MapColor.COLOR_RED);
-	public static GSBlock white_lamp = new GSBlock(MapColor.SNOW);	//wtf also no standard white?
+	public static GSBlock white_lamp = new GSBlock(MapColor.SNOW);
+	public static GSBlock yellow_lamp = new GSBlock(MapColor.COLOR_YELLOW);//wtf also no standard white?
 }

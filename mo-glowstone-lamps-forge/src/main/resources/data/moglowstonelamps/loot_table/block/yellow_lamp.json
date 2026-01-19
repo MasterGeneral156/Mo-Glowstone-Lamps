@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+	  "name": "moglowstonelamps:yellow_lamp",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "moglowstonelamps:yellow_lamp"
+        }
+      ]
+    }
+  ]
+}
