@@ -53,5 +53,6 @@ public class ItemRegistry {
 	public static final Supplier<LampBlockItem> pink_lamp = ITEMS.register("pink_lamp", () -> ModItems.pink_lamp);
 	public static final Supplier<LampBlockItem> red_lamp = ITEMS.register("red_lamp", () -> ModItems.red_lamp);
 	public static final Supplier<LampBlockItem> white_lamp = ITEMS.register("white_lamp", () -> ModItems.white_lamp);
+	public static final Supplier<LampBlockItem> yellow_lamp = ITEMS.register("yellow_lamp", () -> ModItems.yellow_lamp);
 
 }

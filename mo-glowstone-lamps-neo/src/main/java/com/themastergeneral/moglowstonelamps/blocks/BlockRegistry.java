@@ -53,4 +53,5 @@ public class BlockRegistry {
 	public static final Supplier<GSBlock> purple_lamp = BLOCKS.register("purple_lamp", () -> ModBlocks.purple_lamp);
 	public static final Supplier<GSBlock> red_lamp = BLOCKS.register("red_lamp", () -> ModBlocks.red_lamp);
 	public static final Supplier<GSBlock> white_lamp = BLOCKS.register("white_lamp", () -> ModBlocks.white_lamp);
+	public static final Supplier<GSBlock> yellow_lamp = BLOCKS.register("yellow_lamp", () -> ModBlocks.yellow_lamp);
 }
