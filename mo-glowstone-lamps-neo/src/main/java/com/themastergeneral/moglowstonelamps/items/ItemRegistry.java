@@ -54,5 +54,6 @@ public class ItemRegistry {
 	public static final DeferredItem<BlockItem> pink_lamp = ITEMS.registerSimpleBlockItem("pink_lamp", BlockRegistry.PINK_LAMP);
 	public static final DeferredItem<BlockItem> red_lamp = ITEMS.registerSimpleBlockItem("red_lamp", BlockRegistry.RED_LAMP);
 	public static final DeferredItem<BlockItem> white_lamp = ITEMS.registerSimpleBlockItem("white_lamp",  BlockRegistry.WHITE_LAMP);
+	public static final DeferredItem<BlockItem> yellow_lamp = ITEMS.registerSimpleBlockItem("yellow_lamp",  BlockRegistry.YELLOW_LAMP);
 
 }
