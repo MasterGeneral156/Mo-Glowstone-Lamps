@@ -46,4 +46,5 @@ public class ModItems {
 	public static LampBlockItem orange_lamp = new LampBlockItem(ItemRegistry.ITEMS.key("orange_lamp"),ModBlocks.orange_lamp);
 	public static LampBlockItem red_lamp = new LampBlockItem(ItemRegistry.ITEMS.key("red_lamp"),ModBlocks.red_lamp);
 	public static LampBlockItem white_lamp = new LampBlockItem(ItemRegistry.ITEMS.key("white_lamp"),ModBlocks.white_lamp);
+	public static LampBlockItem yellow_lamp = new LampBlockItem(ItemRegistry.ITEMS.key("yellow_lamp"),ModBlocks.yellow_lamp);
 }
