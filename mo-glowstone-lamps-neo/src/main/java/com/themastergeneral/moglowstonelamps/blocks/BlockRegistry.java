@@ -27,9 +27,13 @@
 */
 package com.themastergeneral.moglowstonelamps.blocks;
 
+import com.themastergeneral.ctdcore.block.CTDBlock;
 import com.themastergeneral.moglowstonelamps.MoGlowstoneLamps;
 
+import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.MapColor;
 import net.neoforged.neoforge.registries.DeferredBlock;
@@ -39,100 +43,133 @@ public class BlockRegistry {
 	public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(MoGlowstoneLamps.MODID);
 	
 	//Mod Blocks
-	public static final DeferredBlock<Block> BLACK_LAMP = BLOCKS.registerSimpleBlock(
+	public static final DeferredBlock<Block> BLACK_LAMP = BLOCKS.register(
 			"black_lamp",
-			BlockBehaviour.Properties.of()
-					.mapColor(MapColor.COLOR_BLACK)
-					.lightLevel(state -> 15)
-	);
-	public static final DeferredBlock<Block> BLUE_LAMP = BLOCKS.registerSimpleBlock(
-			"blue_lamp",
-			BlockBehaviour.Properties.of()
-					.mapColor(MapColor.COLOR_BLUE)
-					.lightLevel(state -> 15)
-	);
-	public static final DeferredBlock<Block> BROWN_LAMP = BLOCKS.registerSimpleBlock(
+			registryName -> new CTDBlock(
+					BlockBehaviour.Properties.of()
+						.mapColor(MapColor.COLOR_BLACK)
+						.sound(SoundType.GLASS)
+						.setId(ResourceKey.create(Registries.BLOCK, registryName))
+						.lightLevel(state -> 15)));
+
+	public static final DeferredBlock<Block> BLUE_LAMP = BLOCKS.register(
+			"bluek_lamp",
+			registryName -> new CTDBlock(
+					BlockBehaviour.Properties.of()
+							.mapColor(MapColor.COLOR_BLUE)
+							.sound(SoundType.GLASS)
+							.setId(ResourceKey.create(Registries.BLOCK, registryName))
+							.lightLevel(state -> 15)));
+	public static final DeferredBlock<Block> BROWN_LAMP = BLOCKS.register(
 			"brown_lamp",
-			BlockBehaviour.Properties.of()
-					.mapColor(MapColor.COLOR_BROWN)
-					.lightLevel(state -> 15)
-	);
-	public static final DeferredBlock<Block> CYAN_LAMP = BLOCKS.registerSimpleBlock(
+			registryName -> new CTDBlock(
+					BlockBehaviour.Properties.of()
+							.mapColor(MapColor.COLOR_BROWN)
+							.sound(SoundType.GLASS)
+							.setId(ResourceKey.create(Registries.BLOCK, registryName))
+							.lightLevel(state -> 15)));
+	public static final DeferredBlock<Block> CYAN_LAMP = BLOCKS.register(
 			"cyan_lamp",
-			BlockBehaviour.Properties.of()
-					.mapColor(MapColor.COLOR_CYAN)
-					.lightLevel(state -> 15)
-	);
-	public static final DeferredBlock<Block> GRAY_LAMP = BLOCKS.registerSimpleBlock(
+			registryName -> new CTDBlock(
+					BlockBehaviour.Properties.of()
+							.mapColor(MapColor.COLOR_CYAN)
+							.sound(SoundType.GLASS)
+							.setId(ResourceKey.create(Registries.BLOCK, registryName))
+							.lightLevel(state -> 15)));
+	public static final DeferredBlock<Block> GRAY_LAMP = BLOCKS.register(
 			"gray_lamp",
-			BlockBehaviour.Properties.of()
-					.mapColor(MapColor.COLOR_GRAY)
-					.lightLevel(state -> 15)
-	);
-	public static final DeferredBlock<Block> GREEN_LAMP = BLOCKS.registerSimpleBlock(
+			registryName -> new CTDBlock(
+					BlockBehaviour.Properties.of()
+							.mapColor(MapColor.COLOR_GRAY)
+							.sound(SoundType.GLASS)
+							.setId(ResourceKey.create(Registries.BLOCK, registryName))
+							.lightLevel(state -> 15)));
+	public static final DeferredBlock<Block> GREEN_LAMP = BLOCKS.register(
 			"green_lamp",
-			BlockBehaviour.Properties.of()
-					.mapColor(MapColor.COLOR_GREEN)
-					.lightLevel(state -> 15)
-	);
-	public static final DeferredBlock<Block> LIGHT_BLUE_LAMP = BLOCKS.registerSimpleBlock(
+			registryName -> new CTDBlock(
+					BlockBehaviour.Properties.of()
+							.mapColor(MapColor.COLOR_GREEN)
+							.sound(SoundType.GLASS)
+							.setId(ResourceKey.create(Registries.BLOCK, registryName))
+							.lightLevel(state -> 15)));
+	public static final DeferredBlock<Block> LIGHT_BLUE_LAMP = BLOCKS.register(
 			"light_blue_lamp",
-			BlockBehaviour.Properties.of()
-					.mapColor(MapColor.COLOR_LIGHT_BLUE)
-					.lightLevel(state -> 15)
-	);
-	public static final DeferredBlock<Block> LIGHT_GRAY_LAMP = BLOCKS.registerSimpleBlock(
+			registryName -> new CTDBlock(
+					BlockBehaviour.Properties.of()
+							.mapColor(MapColor.COLOR_LIGHT_BLUE)
+							.sound(SoundType.GLASS)
+							.setId(ResourceKey.create(Registries.BLOCK, registryName))
+							.lightLevel(state -> 15)));
+	public static final DeferredBlock<Block> LIGHT_GRAY_LAMP = BLOCKS.register(
 			"light_gray_lamp",
-			BlockBehaviour.Properties.of()
-					.mapColor(MapColor.COLOR_LIGHT_GRAY)
-					.lightLevel(state -> 15)
-	);
-	public static final DeferredBlock<Block> LIME_LAMP = BLOCKS.registerSimpleBlock(
+			registryName -> new CTDBlock(
+					BlockBehaviour.Properties.of()
+							.mapColor(MapColor.COLOR_LIGHT_GRAY)
+							.sound(SoundType.GLASS)
+							.setId(ResourceKey.create(Registries.BLOCK, registryName))
+							.lightLevel(state -> 15)));
+	public static final DeferredBlock<Block> LIME_LAMP = BLOCKS.register(
 			"lime_lamp",
-			BlockBehaviour.Properties.of()
-					.mapColor(MapColor.COLOR_LIGHT_GREEN)
-					.lightLevel(state -> 15)
-	);
-	public static final DeferredBlock<Block> MAGENTA_LAMP = BLOCKS.registerSimpleBlock(
+			registryName -> new CTDBlock(
+					BlockBehaviour.Properties.of()
+							.mapColor(MapColor.COLOR_LIGHT_GREEN)
+							.sound(SoundType.GLASS)
+							.setId(ResourceKey.create(Registries.BLOCK, registryName))
+							.lightLevel(state -> 15)));
+	public static final DeferredBlock<Block> MAGENTA_LAMP = BLOCKS.register(
 			"magenta_lamp",
-			BlockBehaviour.Properties.of()
-					.mapColor(MapColor.COLOR_MAGENTA)
-					.lightLevel(state -> 15)
-	);
-	public static final DeferredBlock<Block> ORANGE_LAMP = BLOCKS.registerSimpleBlock(
+			registryName -> new CTDBlock(
+					BlockBehaviour.Properties.of()
+							.mapColor(MapColor.COLOR_MAGENTA)
+							.sound(SoundType.GLASS)
+							.setId(ResourceKey.create(Registries.BLOCK, registryName))
+							.lightLevel(state -> 15)));
+	public static final DeferredBlock<Block> ORANGE_LAMP = BLOCKS.register(
 			"orange_lamp",
-			BlockBehaviour.Properties.of()
-					.mapColor(MapColor.COLOR_ORANGE)
-					.lightLevel(state -> 15)
-	);
-	public static final DeferredBlock<Block> PINK_LAMP = BLOCKS.registerSimpleBlock(
+			registryName -> new CTDBlock(
+					BlockBehaviour.Properties.of()
+							.mapColor(MapColor.COLOR_ORANGE)
+							.sound(SoundType.GLASS)
+							.setId(ResourceKey.create(Registries.BLOCK, registryName))
+							.lightLevel(state -> 15)));
+	public static final DeferredBlock<Block> PINK_LAMP = BLOCKS.register(
 			"pink_lamp",
-			BlockBehaviour.Properties.of()
-					.mapColor(MapColor.COLOR_PINK)
-					.lightLevel(state -> 15)
-	);
-	public static final DeferredBlock<Block> PURPLE_LAMP = BLOCKS.registerSimpleBlock(
+			registryName -> new CTDBlock(
+					BlockBehaviour.Properties.of()
+							.mapColor(MapColor.COLOR_PINK)
+							.sound(SoundType.GLASS)
+							.setId(ResourceKey.create(Registries.BLOCK, registryName))
+							.lightLevel(state -> 15)));
+	public static final DeferredBlock<Block> PURPLE_LAMP = BLOCKS.register(
 			"purple_lamp",
-			BlockBehaviour.Properties.of()
-					.mapColor(MapColor.COLOR_PURPLE)
-					.lightLevel(state -> 15)
-	);
-	public static final DeferredBlock<Block> RED_LAMP = BLOCKS.registerSimpleBlock(
+			registryName -> new CTDBlock(
+					BlockBehaviour.Properties.of()
+							.mapColor(MapColor.COLOR_PURPLE)
+							.sound(SoundType.GLASS)
+							.setId(ResourceKey.create(Registries.BLOCK, registryName))
+							.lightLevel(state -> 15)));
+	public static final DeferredBlock<Block> RED_LAMP = BLOCKS.register(
 			"red_lamp",
-			BlockBehaviour.Properties.of()
-					.mapColor(MapColor.COLOR_RED)
-					.lightLevel(state -> 15)
-	);
-	public static final DeferredBlock<Block> WHITE_LAMP = BLOCKS.registerSimpleBlock(
+			registryName -> new CTDBlock(
+					BlockBehaviour.Properties.of()
+							.mapColor(MapColor.COLOR_RED)
+							.sound(SoundType.GLASS)
+							.setId(ResourceKey.create(Registries.BLOCK, registryName))
+							.lightLevel(state -> 15)));
+	public static final DeferredBlock<Block> WHITE_LAMP = BLOCKS.register(
 			"white_lamp",
-			BlockBehaviour.Properties.of()
-					.mapColor(MapColor.TERRACOTTA_WHITE)
-					.lightLevel(state -> 15)
-	);
-	public static final DeferredBlock<Block> YELLOW_LAMP = BLOCKS.registerSimpleBlock(
+			registryName -> new CTDBlock(
+					BlockBehaviour.Properties.of()
+							.mapColor(MapColor.TERRACOTTA_WHITE)
+							.sound(SoundType.GLASS)
+							.setId(ResourceKey.create(Registries.BLOCK, registryName))
+							.lightLevel(state -> 15)));
+	public static final DeferredBlock<Block> YELLOW_LAMP = BLOCKS.register(
 			"yellow_lamp",
-			BlockBehaviour.Properties.of()
-					.mapColor(MapColor.COLOR_YELLOW)
-					.lightLevel(state -> 15)
-	);
+			registryName -> new CTDBlock(
+					BlockBehaviour.Properties.of()
+							.mapColor(MapColor.COLOR_YELLOW)
+							.sound(SoundType.GLASS)
+							.setId(ResourceKey.create(Registries.BLOCK, registryName))
+							.lightLevel(state -> 15)));
 }
