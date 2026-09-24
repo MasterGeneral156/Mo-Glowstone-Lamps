@@ -7,16 +7,9 @@ version="${mod_version}" #mandatory
 displayName="${mod_name}" #mandatory
 updateJSONURL="https://raw.githubusercontent.com/MasterGeneral156/Version/master/MoGlowstoneLamps.json" #optional
 displayURL="https://www.curseforge.com/minecraft/mc-mods/mo-glowstone-lamps" #optional
-logoFile="logo.png" #optional
+iconFile="mo-glowstone-lamps.png" #optional
 authors="${mod_authors}" #optional
 description='''${mod_description}'''
-
-[[dependencies.${mod_id}]] #optional
-    modId="neoforge" #mandatory
-    type="required" #mandatory
-    versionRange="[${neo_version},)" #mandatory
-    ordering="NONE"
-    side="BOTH"
 
 [[dependencies.${mod_id}]]
     modId="minecraft"
