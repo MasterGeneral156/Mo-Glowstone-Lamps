@@ -123,8 +123,8 @@ repositories {
 }
 
 dependencies {
-	implementation("com.themastergeneral.ctdcore:ctd-core-neo:${project.property('ctd_core_ver')}")
-	implementation("com.themastergeneral.moglowstone:mo-glowstone-neo:${project.property('mo_glowstone_ver')}")
+	implementation("com.themastergeneral.ctdcore:CTD-Core:${project.property('ctd_core_ver')}")
+	implementation("com.themastergeneral.moglowstone:Mo-Glowstone:${project.property('mo_glowstone_ver')}")
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.
