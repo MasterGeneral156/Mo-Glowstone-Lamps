@@ -1,6 +1,0 @@
-{
-    "parent": "moglowstonelamps:block/magenta_lamp",
-    "textures": {
-        "inventory": "moglowstonelamps:block/magenta_lamp"
-    }
-}

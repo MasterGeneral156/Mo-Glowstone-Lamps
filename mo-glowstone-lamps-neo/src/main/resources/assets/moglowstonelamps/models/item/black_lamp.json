@@ -1,6 +1,0 @@
-{
-    "parent": "moglowstonelamps:block/black_lamp",
-    "textures": {
-        "inventory": "moglowstonelamps:block/black_lamp"
-    }
-}
